@@ -1,13 +1,15 @@
-# Setup gamerules and load them in
-scoreboard objectives add ghr.gamerule.x dummy
-scoreboard objectives add ghr.gamerule.y dummy
-scoreboard objectives add ghr.gamerule.z dummy
-scoreboard objectives add ghr.gamerule.distance dummy
-function grimstone_hold_raid:gamerules
-
 # Setup raid state variables
 scoreboard objectives add ghr.raid_ongoing dummy "Raid Ongoing"
 scoreboard players set ghr.state ghr.raid_ongoing 1
+
+scoreboard objectives add ghr.time_remaining_seconds dummy "Time Remaining (s)"
+scoreboard players set ghr.state ghr.time_remaining_seconds 600
+
+scoreboard objectives add ghr.round dummy "Raid Round"
+scoreboard players set ghr.state ghr.round 1
+
+scoreboard objectives add ghr.rep dummy "Raid Rep"
+scoreboard players set ghr.state ghr.rep 1
 
 # Setup global variables
 scoreboard objectives add ghr.players_remaining dummy "Players"

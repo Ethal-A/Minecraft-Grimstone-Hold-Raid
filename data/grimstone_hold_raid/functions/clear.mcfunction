@@ -15,3 +15,7 @@ scoreboard objectives remove ghr.players_remaining
 scoreboard objectives remove ghr.hostiles_remaining
 scoreboard objectives remove ghr.individual_kills
 scoreboard objectives remove ghr.individual_deaths
+
+# Reset gamerule
+tellraw @a "Players now lose their inventory on death (like normal)."
+gamerule keepInventory false

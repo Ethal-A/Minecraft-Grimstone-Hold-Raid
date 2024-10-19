@@ -5,4 +5,9 @@ scoreboard players set ghr.state ghr.round 1
 playsound illageandspillage:entity.boss_randomizer.boss master @a
 title @a title "Round 1"
 
-schedule function grimstone_hold_raid:round1/rep1 10s
+schedule function grimstone_hold_raid:round1/rep1 30s
+schedule function grimstone_hold_raid:round1/rep2 60s
+schedule function grimstone_hold_raid:round1/rep3 90s
+schedule function grimstone_hold_raid:round1/rep4 150s
+schedule function grimstone_hold_raid:round1/rep5 190s
+schedule function grimstone_hold_raid:round1/rep6 250s

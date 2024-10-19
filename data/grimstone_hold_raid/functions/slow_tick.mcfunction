@@ -21,11 +21,12 @@ execute as @e[tag=ghr_hostile, x=185, y=300, z=-25, dx=47, dy=19, dz=47] run sco
 scoreboard players operation SecondsRemaining ghr.scoreboard = ghr.state ghr.time_remaining_seconds
 scoreboard players operation PlayersRemaining ghr.scoreboard = ghr.state ghr.players_remaining
 scoreboard players operation HostilesRemaining ghr.scoreboard = ghr.state ghr.hostiles_remaining
-scoreboard players operation Kills ghr.scoreboard = @a ghr.individual_kills
-scoreboard players operation Deaths ghr.scoreboard = @a ghr.individual_deaths
+# Uncomment if you want to show individual kilsl and deaths on the sidebar
+# scoreboard players operation Kills ghr.scoreboard = @a ghr.individual_kills
+# scoreboard players operation Deaths ghr.scoreboard = @a ghr.individual_deaths
 
 # Make hostiles glow if there is 5 or less of them
 execute if score ghr.state ghr.hostiles_remaining matches ..5 run effect give @e[tag=ghr_hostile] glowing 5 0 true
 
-# There are 3 reps in round 1
-execute if score ghr.state ghr.hostiles_remaining matches 0 if score ghr.state ghr.round matches 1 if score ghr.state ghr.rep matches 3 run function grimstone_hold_raid:round2/round2
+# There are 6 reps in round 1
+execute if score ghr.state ghr.hostiles_remaining matches 0 if score ghr.state ghr.round matches 1 if score ghr.state ghr.rep matches 6 run function grimstone_hold_raid:round2/round2

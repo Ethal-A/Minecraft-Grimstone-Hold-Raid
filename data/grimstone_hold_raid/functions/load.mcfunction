@@ -24,6 +24,11 @@ scoreboard objectives add ghr.individual_deaths deathCount "Deaths"
 # Display scoreboard
 scoreboard objectives add ghr.scoreboard dummy "Raid"
 scoreboard objectives setdisplay sidebar ghr.scoreboard
+scoreboard objectives setdisplay list ghr.individual_kills # Display player kills in the player list next to their names
 
 # Begin slow tick
 function grimstone_hold_raid:slow_tick
+
+# Change game rules
+tellraw @a "Players will keep their inventory on death."
+gamerule keepInventory true

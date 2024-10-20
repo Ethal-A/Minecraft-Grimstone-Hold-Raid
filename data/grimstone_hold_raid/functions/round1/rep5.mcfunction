@@ -19,3 +19,18 @@ schedule function grimstone_hold_raid:imps/square7x7 35s
 schedule function grimstone_hold_raid:imps/square7x7 50s
 schedule function grimstone_hold_raid:imps/square7x7 60s
 schedule function grimstone_hold_raid:imps/square7x7 70s
+
+# Spawn area 1: 226 311 16
+summon ravager 226 311 16 {Tags:["ghr_hostile"], Attributes:[{Name:"generic.armor",Base:10f}], Passengers:[{id:pillager, Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}]}
+
+# Spawn area 1: 190 309 14
+summon ravager 190 309 14 {Tags:["ghr_hostile"], Attributes:[{Name:"generic.armor",Base:10f}], Passengers:[{id:pillager, Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}]}
+
+# Spawn area 1: 192 309 -18
+summon ravager 192 309 -18 {Tags:["ghr_hostile"], Attributes:[{Name:"generic.armor",Base:10f}], Passengers:[{id:pillager, Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}]}
+
+# Spawn area 1: 225 309 -19
+summon ravager 225 309 -19 {Tags:["ghr_hostile"], Attributes:[{Name:"generic.armor",Base:10f}], Passengers:[{id:pillager, Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}]}
+
+# Add all newly generated hostiles to a team
+team join ghr_hostile_mobs @e[tag=ghr_hostile]

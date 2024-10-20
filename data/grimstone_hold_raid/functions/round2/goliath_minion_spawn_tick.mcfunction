@@ -1,4 +1,4 @@
-execute if entity @e[name="Goliath"] run schedule function grimstone_hold_raid:round2/goliath_minion_spawn_tick 15s
+execute if entity @e[name="Goliath"] run schedule function grimstone_hold_raid:round2/goliath_minion_spawn_tick 20s
 execute at @e[name="Goliath"] run summon illagerinvasion:marauder ~3 ~ ~ {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Marauder Minion"}]', HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f], ForgeData: {InfernalMobsMod: ""}}
 execute at @e[name="Goliath"] run summon illagerinvasion:marauder ~3 ~ ~3 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Marauder Minion"}]', HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f], ForgeData: {InfernalMobsMod: ""}}
 execute at @e[name="Goliath"] run summon illagerinvasion:marauder ~ ~ ~3 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Marauder Minion"}]', HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f], ForgeData: {InfernalMobsMod: ""}}

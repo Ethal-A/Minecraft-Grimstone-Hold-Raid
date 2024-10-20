@@ -26,6 +26,10 @@ scoreboard objectives add ghr.scoreboard dummy "Raid"
 scoreboard objectives setdisplay sidebar ghr.scoreboard
 scoreboard objectives setdisplay list ghr.individual_kills # Display player kills in the player list next to their names
 
+# Setup team for hostile mobs and the team rules
+team add ghr_hostile_mobs
+team modify ghr_hostile_mobs friendlyFire false
+
 # Begin slow tick
 function grimstone_hold_raid:slow_tick
 

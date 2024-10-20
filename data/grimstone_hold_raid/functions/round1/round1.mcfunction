@@ -11,3 +11,5 @@ schedule function grimstone_hold_raid:round1/rep3 90s
 schedule function grimstone_hold_raid:round1/rep4 150s
 schedule function grimstone_hold_raid:round1/rep5 190s
 schedule function grimstone_hold_raid:round1/rep6 250s
+
+tellraw @p {"text":"You dare challenge the Spiritcaller...","color":"red"}

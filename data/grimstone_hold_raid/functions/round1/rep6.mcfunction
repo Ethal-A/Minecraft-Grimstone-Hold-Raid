@@ -6,8 +6,7 @@ tellraw @a "Round 1, Rep 6"
 
 # Random imps
 function grimstone_hold_raid:imps/cross9
-function grimstone_hold_raid:imps/square7x7
-
+schedule function grimstone_hold_raid:imps/square7x7 2s
 
 # Spawn boss area: 210 310 -3
 summon irons_spellbooks:archevoker 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], Angry:1, Attributes:[{Name:"generic.max_health",Base:300f}], Health:300}
@@ -41,3 +40,6 @@ summon illagerinvasion:provoker 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{i
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
 effect give @e[tag=ghr_hostile] minecraft:fire_resistance 10 1 true
+
+# Add all newly generated hostiles to a team
+team join ghr_hostile_mobs @e[tag=ghr_hostile]

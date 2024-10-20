@@ -6,12 +6,12 @@ tellraw @a "Round 1, Rep 4"
 
 # Random imps
 function grimstone_hold_raid:imps/cross9
-function grimstone_hold_raid:imps/cross9
-function grimstone_hold_raid:imps/cross9
-function grimstone_hold_raid:imps/square7x7
-function grimstone_hold_raid:imps/square7x7
-function grimstone_hold_raid:imps/square7x7
-function grimstone_hold_raid:imps/square7x7
+schedule function grimstone_hold_raid:imps/cross9 2s
+schedule function grimstone_hold_raid:imps/cross9 4s
+schedule function grimstone_hold_raid:imps/square7x7 6s
+schedule function grimstone_hold_raid:imps/square7x7 8s
+schedule function grimstone_hold_raid:imps/square7x7 10s
+schedule function grimstone_hold_raid:imps/square7x7 12s
 
 
 # Spawn boss area: 210 310 -3
@@ -37,3 +37,6 @@ multisummon spread 1 2 2 pillager 225 309 -19 {Tags:["ghr_hostile"], HandItems:[
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
 effect give @e[tag=ghr_hostile] minecraft:fire_resistance 10 1 true
+
+# Add all newly generated hostiles to a team
+team join ghr_hostile_mobs @e[tag=ghr_hostile]

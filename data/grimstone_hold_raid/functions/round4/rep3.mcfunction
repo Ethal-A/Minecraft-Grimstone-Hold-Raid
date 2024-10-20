@@ -39,9 +39,6 @@ multisummon spread 3 3 2 minecraft:cave_spider 225 309 -19 {Tags:["ghr_hostile",
 scale set pehkui:height 0.5 @e[type=minecraft:cave_spider, tag=ghr_boss_minion]
 scale set pehkui:width 0.5 @e[type=minecraft:cave_spider, tag=ghr_boss_minion]
 
-# Trigger hostility
-schedule function grimstone_hold_raid:round4/trigger_hostility 2s
-
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
 effect give @e[tag=ghr_hostile] minecraft:fire_resistance 10 1 true

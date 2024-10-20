@@ -1,0 +1,2 @@
+# execute as @e[type=minecraft:spider, tag=ghr_hostile] run damage @s 0 player_attack by @p
+execute as @e[type=minecraft:spider, tag=ghr_hostile] at @s run data modify entity @s AngryAt set from entity @p UUID

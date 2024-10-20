@@ -1,5 +1,6 @@
 # Set variables
 scoreboard players set ghr.state ghr.round 1
+scoreboard players set ghr.state ghr.rep 1
 
 # Display and notify player
 playsound illageandspillage:entity.boss_randomizer.boss master @a

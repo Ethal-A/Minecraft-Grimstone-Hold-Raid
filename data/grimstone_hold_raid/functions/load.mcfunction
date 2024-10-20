@@ -21,10 +21,10 @@ scoreboard players set ghr.state ghr.hostiles_remaining 0
 scoreboard objectives add ghr.individual_kills totalKillCount "Kills"
 scoreboard objectives add ghr.individual_deaths deathCount "Deaths"
 
-# Display scoreboard
+# Display scoreboard and display player kills in the player list next to their names
 scoreboard objectives add ghr.scoreboard dummy "Raid"
 scoreboard objectives setdisplay sidebar ghr.scoreboard
-scoreboard objectives setdisplay list ghr.individual_kills # Display player kills in the player list next to their names
+scoreboard objectives setdisplay list ghr.individual_kills
 
 # Setup team for hostile mobs and the team rules
 team add ghr_hostile_mobs

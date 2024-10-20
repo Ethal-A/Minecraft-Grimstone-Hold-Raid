@@ -1,0 +1,2 @@
+execute as @e[type=irons_spellbooks:pyromancer, tag=ghr_hostile] run damage @s 0 player_attack by @p
+execute as @e[type=irons_spellbooks:cryomancer, tag=ghr_hostile] run damage @s 0 player_attack by @p

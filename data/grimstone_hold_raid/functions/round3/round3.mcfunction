@@ -11,3 +11,7 @@ title @a subtitle "+6 Minutes"
 title @a title "Round 3"
 
 schedule function grimstone_hold_raid:round3/rep1 60s
+schedule function grimstone_hold_raid:round3/rep2 90s
+schedule function grimstone_hold_raid:round3/rep3 120s
+schedule function grimstone_hold_raid:round3/rep4 200s
+schedule function grimstone_hold_raid:round3/rep5 240s

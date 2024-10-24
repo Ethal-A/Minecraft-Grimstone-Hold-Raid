@@ -13,7 +13,7 @@ schedule function grimstone_hold_raid:imps/cross30 2s
 summon illageandspillage:spiritcaller 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Spiritcaller"}]', Attributes:[{Name:"generic.max_health",Base:2500f}], Health:2500, ForgeData: {InfernalMobsMod: ""}}
 effect give @e[type=illageandspillage:spiritcaller, tag=ghr_boss] minecraft:regeneration infinite 2 true
 execute as @e[type=illageandspillage:spiritcaller, tag=ghr_boss] run damage @s 0 player_attack by @p
-function grimstone_hold_raid:round3/spiritcaller_tick
+function grimstone_hold_raid:round3/spiritcaller_minion_spawn_tick
 
 # Spawn area 1: 226 311 16
 summon illageandspillage:absorber 226 311 16 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: ""}}

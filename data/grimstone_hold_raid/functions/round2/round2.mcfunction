@@ -10,6 +10,7 @@ playsound illageandspillage:entity.boss_randomizer.boss master @a
 title @a subtitle "+6 Minutes"
 title @a title "Round 2"
 
+# Run reps
 schedule function grimstone_hold_raid:round2/rep1 60s
 schedule function grimstone_hold_raid:round2/rep2 90s
 schedule function grimstone_hold_raid:round2/rep3 150s

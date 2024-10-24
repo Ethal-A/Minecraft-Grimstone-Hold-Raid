@@ -10,4 +10,13 @@ playsound illageandspillage:entity.boss_randomizer.boss master @a
 title @a subtitle "+6 Minutes"
 title @a title "Round 4"
 
+# Run repeating function
+function grimstone_hold_raid:round4/cave_spider_check
+
+# Run reps
 schedule function grimstone_hold_raid:round4/rep1 60s
+schedule function grimstone_hold_raid:round4/rep2 90s
+schedule function grimstone_hold_raid:round4/rep3 120s
+schedule function grimstone_hold_raid:round4/rep4 150s
+schedule function grimstone_hold_raid:round4/rep5 180s
+schedule function grimstone_hold_raid:round4/rep6 210s

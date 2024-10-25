@@ -1,7 +1,7 @@
 # TODO: Test
 # Inform the player
 tellraw @a "The spiritcaller calls for support"
-tellraw @p {"text":"The sorcerers, cryomancers and pyromancers grant the Spiritcaller invulnerability every 20 seconds","color":"red"}
+tellraw @a {"text":"The sorcerers, cryomancers and pyromancers grant the Spiritcaller invulnerability every 20 seconds","color":"red"}
 
 # Spawn area 1: 226 311 16
 summon illagerinvasion:basher 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}

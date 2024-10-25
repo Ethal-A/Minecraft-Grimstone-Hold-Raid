@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "Hit": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"ghr_cause_bleeding\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "grimstone_hold_raid:util/cause_bleeding_hit"
+    }
+}

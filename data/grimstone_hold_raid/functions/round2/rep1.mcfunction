@@ -20,7 +20,7 @@ schedule function grimstone_hold_raid:imps/square7x7 20s
 schedule function grimstone_hold_raid:imps/square7x7 30s
 
 # Spawn boss area: 210 310 -3
-summon illageandspillage:absorber 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Goliath"}]', Attributes:[{Name:"generic.max_health",Base:800f}], Health:800, ForgeData: {InfernalMobsMod: ""}}
+summon illageandspillage:absorber 210 310 -3 {Tags:["ghr_hostile", "ghr_boss", "ghr_cause_bleeding"], CustomName:'[{"text":"Goliath"}]', Attributes:[{Name:"generic.max_health",Base:800f}], Health:800, ForgeData: {InfernalMobsMod: ""}}
 effect give @e[type=illageandspillage:absorber, tag=ghr_boss] minecraft:speed infinite 8 true
 effect give @e[type=illageandspillage:absorber, tag=ghr_boss] minecraft:strength infinite 20 true
 scale set pehkui:height 1.8 @e[type=illageandspillage:absorber, tag=ghr_boss]

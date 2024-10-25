@@ -3,7 +3,7 @@ scoreboard players set ghr.state ghr.rep 4
 
 # Inform the player
 tellraw @a "Round 3, Rep 4"
-tellraw @p {"text":"The cryomancer and pyromancer grant the Spiritcaller invulnerability every 20 seconds","color":"red"}
+tellraw @a {"text":"The cryomancer and pyromancer grant the Spiritcaller invulnerability every 20 seconds","color":"red"}
 
 # Random imps
 function grimstone_hold_raid:imps/cross30

@@ -16,3 +16,5 @@ schedule function grimstone_hold_raid:round3/rep3 120s
 schedule function grimstone_hold_raid:round3/rep4 150s
 schedule function grimstone_hold_raid:round3/rep5 190s
 schedule function grimstone_hold_raid:round3/spiritcaller_support_tick 240s
+
+tellraw @a {"text":"You dare challenge the Freakager...","color":"red"}

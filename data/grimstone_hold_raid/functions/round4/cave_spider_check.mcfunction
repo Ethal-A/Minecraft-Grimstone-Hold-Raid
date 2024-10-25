@@ -4,3 +4,4 @@ scoreboard objectives add ghr.cave_spiders dummy "Number of cave spiders remaini
 scoreboard players set ghr.state ghr.cave_spiders 0
 execute as @e[type=minecraft:cave_spider, tag=ghr_hostile] run scoreboard players add ghr.state ghr.cave_spiders 1
 execute if score ghr.state ghr.cave_spiders = ghr.state ghr.hostiles_remaining run kill @e[type=minecraft:cave_spider, tag=ghr_hostile]
+scoreboard objectives remove ghr.cave_spiders

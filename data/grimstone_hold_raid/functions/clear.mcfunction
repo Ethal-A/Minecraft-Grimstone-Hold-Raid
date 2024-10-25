@@ -22,3 +22,7 @@ team remove ghr_hostile_mobs
 # Reset gamerule
 tellraw @a "Players now lose their inventory on death (like normal)."
 gamerule keepInventory false
+
+# Clear schedule
+schedule clear grimstone_hold_raid:slow_tick
+# schedule clear ...

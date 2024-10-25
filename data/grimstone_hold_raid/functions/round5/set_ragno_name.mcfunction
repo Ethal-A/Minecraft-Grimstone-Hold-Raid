@@ -1,4 +1,3 @@
-# TODO: Test
 # Arena corner where all x,y,z increase and with the following distances:
 # X: 185
 # Y: 300

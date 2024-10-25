@@ -1,4 +1,3 @@
-# TODO: Test
 execute if score ghr.state ghr.round matches 4 run schedule function grimstone_hold_raid:round4/cave_spider_check 30s
 scoreboard objectives add ghr.cave_spiders dummy "Number of cave spiders remaining"
 scoreboard players set ghr.state ghr.cave_spiders 0

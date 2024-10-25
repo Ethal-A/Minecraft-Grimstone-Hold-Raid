@@ -1,4 +1,3 @@
-# TODO: Test
 # Set variables
 scoreboard players set ghr.state ghr.rep 1
 
@@ -6,19 +5,13 @@ scoreboard players set ghr.state ghr.rep 1
 tellraw @a "Round 5, Rep 1"
 title @a reset
 
-# Spawn boss area: 210 310 -3 TODO: Check summon name is spelt correct.
+# Spawn boss area: 210 310 -3
 summon illageandspillage:freakager 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Freakager"}]', Attributes:[{Name:"generic.max_health",Base:2000f}], Health:2000, ForgeData: {InfernalMobsMod: ""}}
 effect give @e[type=illageandspillage:freakager, tag=ghr_boss] minecraft:regeneration infinite 2 true
 execute as @e[type=illageandspillage:freakager, tag=ghr_boss] run damage @s 0 player_attack by @p
 schedule function grimstone_hold_raid:round5/set_ragno_name 10s
 schedule function grimstone_hold_raid:round5/freakager_minion_spawn_tick 60s
 schedule function grimstone_hold_raid:round5/ragno_minion_spawn_tick 20s
-
-# Provide Freakager tick
-
-
-# Provide Ragno tick
-
 
 # Spawn area 1: 226 311 16
 

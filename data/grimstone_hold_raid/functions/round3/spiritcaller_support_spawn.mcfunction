@@ -1,4 +1,3 @@
-# TODO: Test
 # Inform the player
 tellraw @a "The spiritcaller calls for support"
 tellraw @a {"text":"The sorcerers, cryomancers and pyromancers grant the Spiritcaller invulnerability every 20 seconds","color":"red"}

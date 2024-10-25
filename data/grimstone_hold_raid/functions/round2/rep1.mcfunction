@@ -61,4 +61,4 @@ effect give @e[tag=ghr_hostile] minecraft:fire_resistance 10 1 true
 team join ghr_hostile_mobs @e[tag=ghr_hostile]
 
 # Goliath tick
-function grimstone_hold_raid:round2/goliath_support_tick
+schedule function grimstone_hold_raid:round2/goliath_support_tick 180

@@ -2,7 +2,7 @@
 scoreboard players set ghr.state ghr.rep 6
 
 # Inform the player
-tellraw @a "Round 7, Rep 6"
+tellraw @a "Round 7, Rep 6 (final rep)"
 
 # Spawn area 1: 226 311 16
 summon illagerinvasion:basher 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}

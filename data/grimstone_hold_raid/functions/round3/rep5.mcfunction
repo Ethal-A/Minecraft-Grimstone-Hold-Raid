@@ -2,7 +2,7 @@
 scoreboard players set ghr.state ghr.rep 5
 
 # Inform the player
-tellraw @a "Round 3, Rep 5"
+tellraw @a "Round 3, Rep 5 (final rep)"
 tellraw @a {"text":"The sorcerers grant the Spiritcaller invulnerability every 20 seconds","color":"red"}
 
 # Random imps

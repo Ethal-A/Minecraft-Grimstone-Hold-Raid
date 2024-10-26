@@ -2,7 +2,7 @@
 scoreboard players set ghr.state ghr.rep 6
 
 # Inform the player
-tellraw @a "Round 4, Rep 6"
+tellraw @a "Round 4, Rep 6 (final rep)"
 
 # Schedule bombs
 schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 5s

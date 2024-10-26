@@ -9,7 +9,10 @@ function grimstone_hold_raid:imps/cross9
 schedule function grimstone_hold_raid:imps/square7x7 2s
 
 # Spawn boss area: 210 310 -3
-summon irons_spellbooks:archevoker 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], Angry:1, Attributes:[{Name:"generic.max_health",Base:300f}], Health:300}
+summon irons_spellbooks:archevoker 210 310 -3
+tag @e[type=irons_spellbooks:archevoker, x=185, y=300, z=-25, dx=47, dy=19, dz=47] add ghr_hostile
+tag @e[type=irons_spellbooks:archevoker, x=185, y=300, z=-25, dx=47, dy=19, dz=47] add ghr_boss
+health set @e[type=irons_spellbooks:archevoker, tag=ghr_boss] 500
 effect give @e[type=irons_spellbooks:archevoker, tag=ghr_boss] minecraft:regeneration infinite 3 true
 effect give @e[type=irons_spellbooks:archevoker, tag=ghr_boss] minecraft:strength infinite 3 true
 

@@ -1,16 +1,10 @@
 # Set variables
-scoreboard players set ghr.state ghr.rep 1
+scoreboard players set ghr.state ghr.rep 5
 
-# Inform the player (reset title format)
-tellraw @a "Round 5, Rep 1"
-title @a reset
+# Inform the player
+tellraw @a "Round 5, Rep 5"
 
-# Schedule bombs
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 5s
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 15s
-
-# Spawn boss area: 210 310 -3
+# Spawn boss area: 210 310 -3 TODO: Test
 summon illageandspillage:freakager 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Freakager"}]', Attributes:[{Name:"generic.max_health",Base:2000f}], Health:2000, ForgeData: {InfernalMobsMod: ""}}
 effect give @e[type=illageandspillage:freakager, tag=ghr_boss] minecraft:regeneration infinite 2 true
 execute as @e[type=illageandspillage:freakager, tag=ghr_boss] run damage @s 0 player_attack by @p

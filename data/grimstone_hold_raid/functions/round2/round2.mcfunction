@@ -14,3 +14,4 @@ title @a title "Round 2"
 schedule function grimstone_hold_raid:round2/rep1 60s
 schedule function grimstone_hold_raid:round2/rep2 90s
 schedule function grimstone_hold_raid:round2/rep3 150s
+schedule function grimstone_hold_raid:round2/rep4 180s

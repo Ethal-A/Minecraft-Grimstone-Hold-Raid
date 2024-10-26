@@ -12,5 +12,8 @@ title @a title "Round 4"
 
 # Run repeating function
 function grimstone_hold_raid:round5/cave_spider_check
-
-# Run reps
+schedule function grimstone_hold_raid:round5/rep1 60s
+schedule function grimstone_hold_raid:round5/rep2 90s
+schedule function grimstone_hold_raid:round5/rep3 120s
+schedule function grimstone_hold_raid:round5/rep4 150s
+schedule function grimstone_hold_raid:round5/rep5 180s

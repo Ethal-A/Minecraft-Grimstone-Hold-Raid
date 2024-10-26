@@ -20,3 +20,6 @@ schedule function grimstone_hold_raid:round4/rep3 120s
 schedule function grimstone_hold_raid:round4/rep4 150s
 schedule function grimstone_hold_raid:round4/rep5 180s
 schedule function grimstone_hold_raid:round4/rep6 210s
+
+# Message players
+tellraw @a {"text":"You dare challenge the Freakager...","color":"red"}

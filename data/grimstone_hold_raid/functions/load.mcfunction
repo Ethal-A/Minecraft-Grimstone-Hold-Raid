@@ -11,6 +11,9 @@ scoreboard players set ghr.state ghr.round 1
 scoreboard objectives add ghr.rep dummy "Raid Rep"
 scoreboard players set ghr.state ghr.rep 1
 
+scoreboard objectives add ghr.has_died deathCount
+scoreboard objectives add ghr.respawn_countdown dummy
+
 # Setup global variables
 scoreboard objectives add ghr.players_remaining dummy "Players"
 scoreboard objectives add ghr.hostiles_remaining dummy "Hostiles"
@@ -35,4 +38,7 @@ function grimstone_hold_raid:slow_tick
 
 # Change game rules
 tellraw @a "Players will keep their inventory on death."
+tellraw @a "Players will immediately respawn."
+tellraw @a "Players will have a respawn delay if they die inside the arena."
 gamerule keepInventory true
+gamerule doImmediateRespawn true

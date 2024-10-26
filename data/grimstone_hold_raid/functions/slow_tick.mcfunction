@@ -48,3 +48,22 @@ execute if score ghr.state ghr.hostiles_remaining matches 0 if score ghr.state g
 
 # There are 6 reps in round 7
 execute if score ghr.state ghr.hostiles_remaining matches 0 if score ghr.state ghr.round matches 7 if score ghr.state ghr.rep matches 6 run function grimstone_hold_raid:finish/success
+
+# Handle respawns
+execute as @a[scores={ghr.has_died=1}] run function grimstone_hold_raid:util/player_death_handler
+scoreboard players remove @e[scores={ghr.respawn_countdown=1..}] ghr.respawn_countdown 1
+
+execute as @a[scores={ghr.respawn_countdown=30}] run tellraw @s "30 seconds until respawn"
+execute as @a[scores={ghr.respawn_countdown=20}] run tellraw @s "20 seconds until respawn"
+execute as @a[scores={ghr.respawn_countdown=10}] run tellraw @s "10 seconds until respawn"
+execute as @a[scores={ghr.respawn_countdown=5}] run tellraw @s "5 seconds until respawn"
+execute as @a[scores={ghr.respawn_countdown=4}] run tellraw @s "4 seconds until respawn"
+execute as @a[scores={ghr.respawn_countdown=3}] run tellraw @s "3 seconds until respawn"
+execute as @a[scores={ghr.respawn_countdown=2}] run tellraw @s "2 seconds until respawn"
+execute as @a[scores={ghr.respawn_countdown=1}] run tellraw @s "1 seconds until respawn"
+
+execute as @a[scores={ghr.respawn_countdown=..0}] run tp 210 310 -3
+execute as @a[scores={ghr.respawn_countdown=..0}] run gamemode survival
+execute as @a[scores={ghr.respawn_countdown=..0}] run tellraw @s "Respawned"
+execute as @a[scores={ghr.respawn_countdown=..0}] run effect give @s resistance 5 10 true
+execute as @a[scores={ghr.respawn_countdown=..0}] run scoreboard players reset @s ghr.respawn_countdown

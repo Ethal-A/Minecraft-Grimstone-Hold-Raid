@@ -21,7 +21,7 @@ multisummon spread 1 1 2 illagerinvasion:inquisitor 225 309 -19 {Tags:["ghr_host
 multisummon spread 1 2 2 pillager 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}
 
 # Adjust mobs
-function grimstone_hold_raid:round6/equip_all_with_blast_protection
+function grimstone_hold_raid:equip_hostiles/equip_all_with_blast_protection
 
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true

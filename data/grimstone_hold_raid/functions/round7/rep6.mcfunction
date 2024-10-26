@@ -40,7 +40,7 @@ execute as @e[type=irons_spellbooks:cryomancer, tag=ghr_hostile] run tag @s add 
 schedule function grimstone_hold_raid:round3/trigger_hostility 5s
 
 # Adjust mobs
-function grimstone_hold_raid:round6/equip_all_with_blast_protection
+function grimstone_hold_raid:equip_hostiles/equip_all_with_blast_protection
 
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true

@@ -34,7 +34,7 @@ summon illageandspillage:twittollager 225 309 -19 {Tags:["ghr_hostile"]}
 effect give @e[type=minecraft:creeper, tag=ghr_enlarge] speed infinite 1 true
 scale set pehkui:height 2 @e[type=minecraft:creeper, tag=ghr_enlarge]
 scale set pehkui:width 2 @e[type=minecraft:creeper, tag=ghr_enlarge]
-function grimstone_hold_raid:round6/equip_all_with_blast_protection
+function grimstone_hold_raid:equip_hostiles/equip_all_with_blast_protection
 
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true

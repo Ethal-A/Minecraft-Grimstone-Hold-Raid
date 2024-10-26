@@ -27,7 +27,7 @@ summon vindicator 225 309 -19 {Tags:["ghr_hostile"],ActiveEffects:[{Id:5,ShowPar
 summon illagerinvasion:provoker 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 
 # Adjust mobs
-function grimstone_hold_raid:round6/equip_all_with_blast_protection
+function grimstone_hold_raid:equip_hostiles/equip_all_with_blast_protection
 
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true

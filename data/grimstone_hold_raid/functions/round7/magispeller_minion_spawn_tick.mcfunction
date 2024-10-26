@@ -13,4 +13,4 @@ scale set pehkui:width 0.5 @e[type=ravager, tag=ghr_boss_minion]
 # Add all newly generated hostiles to a team
 team join ghr_hostile_mobs @e[tag=ghr_hostile]
 
-function grimstone_hold_raid:round6/equip_all_with_blast_protection
+function grimstone_hold_raid:equip_hostiles/equip_all_with_blast_protection

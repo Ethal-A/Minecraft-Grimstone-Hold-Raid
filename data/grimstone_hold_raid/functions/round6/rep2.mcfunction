@@ -34,7 +34,7 @@ effect give @e[type=illagerinvasion:necromancer, tag=ghr_boss] minecraft:regener
 # Adjust mobs
 scale set pehkui:height 1.3 @e[type=minecraft:zombie, tag=ghr_enlarge]
 scale set pehkui:width 1.3 @e[type=minecraft:zombie, tag=ghr_enlarge]
-function grimstone_hold_raid:round6/equip_all_with_blast_protection
+function grimstone_hold_raid:equip_hostiles/equip_all_with_blast_protection
 
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true

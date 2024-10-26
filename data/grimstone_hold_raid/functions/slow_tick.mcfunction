@@ -14,7 +14,7 @@ execute if score ghr.state ghr.time_remaining_seconds matches 1.. run scoreboard
 # Count number of players in arena
 scoreboard players reset ghr.state ghr.players_remaining
 scoreboard players reset ghr.state ghr.hostiles_remaining
-execute as @a[x=185, y=300, z=-25, dx=47, dy=19, dz=47] run scoreboard players add ghr.state ghr.players_remaining 1
+execute as @a[x=185, y=300, gamemode=!spectator,z=-25, dx=47, dy=19, dz=47] run scoreboard players add ghr.state ghr.players_remaining 1
 execute as @e[tag=ghr_hostile, x=185, y=300, z=-25, dx=47, dy=19, dz=47] run scoreboard players add ghr.state ghr.hostiles_remaining 1
 
 # Update display

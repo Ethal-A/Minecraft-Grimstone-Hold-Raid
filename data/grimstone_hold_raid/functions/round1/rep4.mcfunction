@@ -18,6 +18,9 @@ schedule function grimstone_hold_raid:imps/square7x7 12s
 summon illagerinvasion:necromancer 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], Attributes:[{Name:"generic.max_health",Base:300f}], Health:300}
 effect give @e[type=illagerinvasion:necromancer, tag=ghr_boss] minecraft:regeneration infinite 3 true
 
+# Make the boss always glow
+effect give @e[tag=ghr_boss] glowing infinite 0 true
+
 # Spawn area 1: 226 311 16
 multisummon spread 1 1 2 illagerinvasion:inquisitor 226 311 16 {Tags:["ghr_hostile"], PersistenceRequired:1b,HandItems:[{id:iron_sword,Count:1},{id:shield,Count:1}],HandDropChances:[0f,0f]}
 multisummon spread 1 2 2 pillager 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}

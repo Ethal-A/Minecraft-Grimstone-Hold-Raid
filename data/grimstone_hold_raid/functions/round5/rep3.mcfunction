@@ -28,6 +28,9 @@ summon illagerinvasion:necromancer 225 309 -19 {Tags:["ghr_hostile", "ghr_boss"]
 # Apply effects to hostiles
 effect give @e[type=illagerinvasion:necromancer, tag=ghr_boss] minecraft:regeneration infinite 3 true
 
+# Make the boss always glow
+effect give @e[tag=ghr_boss] glowing infinite 0 true
+
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
 effect give @e[tag=ghr_hostile] minecraft:fire_resistance 10 1 true # TODO: Remove and figure out something else?

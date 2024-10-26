@@ -29,6 +29,9 @@ scale set pehkui:interaction_box_height 1.8 @e[type=illageandspillage:absorber, 
 scale set pehkui:interaction_box_width 1.8 @e[type=illageandspillage:absorber, tag=ghr_boss]
 function grimstone_hold_raid:round2/goliath_minion_spawn_tick
 
+# Make the boss always glow
+effect give @e[tag=ghr_boss] glowing infinite 0 true
+
 # Spawn area 1: 226 311 16
 summon illagerinvasion:basher 226 311 16 {Tags:["ghr_hostile"], Health:40, HandItems:[{id:stone_sword,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0f], Attributes:[{Name:"generic.max_health",Base:40f},{Name:"generic.armor",Base:4f}]}
 multisummon spread 1 2 2 pillager 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}

@@ -14,6 +14,9 @@ summon mutantmonsters:mutant_creeper 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"
 scale set pehkui:height 1.5 @e[type=mutantmonsters:mutant_creeper, tag=ghr_boss]
 scale set pehkui:width 1.5 @e[type=mutantmonsters:mutant_creeper, tag=ghr_boss]
 
+# Make the boss always glow
+effect give @e[tag=ghr_boss] glowing infinite 0 true
+
 # Spawn area 1: 226 311 16
 summon illageandspillage:twittollager 226 311 16 {Tags:["ghr_hostile"]}
 summon illageandspillage:crocofang 226 311 16 {Tags:["ghr_hostile"]}

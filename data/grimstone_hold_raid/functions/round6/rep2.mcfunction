@@ -24,6 +24,12 @@ summon illagerinvasion:necromancer 192 309 -18 {Tags:["ghr_hostile", "ghr_boss"]
 summon zombie 225 309 -19 {Tags:["ghr_hostile", "ghr_enlarge"],CustomName:'[{"text":"Hammer Time"}]',Health:40,HandItems:[{id:"simplyswords:iron_greathammer",Count:1},{id:shield,Count:1}],Attributes:[{Name:"zombie.spawn_reinforcements",Base:0.5f},{Name:"generic.max_health",Base:40f}],HandDropChances:[0f,0f]}
 summon illagerinvasion:provoker 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 
+# Make the boss always glow
+effect give @e[tag=ghr_boss] glowing infinite 0 true
+
+# Apply effects to hostiles
+effect give @e[type=illagerinvasion:necromancer, tag=ghr_boss] minecraft:regeneration infinite 3 true
+
 # Adjust mobs
 scale set pehkui:height 1.3 @e[type=minecraft:zombie, tag=ghr_enlarge]
 scale set pehkui:width 1.3 @e[type=minecraft:zombie, tag=ghr_enlarge]

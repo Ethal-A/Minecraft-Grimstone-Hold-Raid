@@ -19,6 +19,9 @@ scale set pehkui:height 1.5 @e[type=mutantmonsters:spider_pig, tag=ghr_boss]
 scale set pehkui:width 1.5 @e[type=mutantmonsters:spider_pig, tag=ghr_boss]
 execute as @e[type=mutantmonsters:spider_pig, tag=ghr_boss] at @s run data modify entity @s AngryAt set from entity @p UUID
 
+# Make the boss always glow
+effect give @e[tag=ghr_boss] glowing infinite 0 true
+
 # Spawn area 1: 226 311 16
 summon illageandspillage:igniter 226 311 16 {Tags:["ghr_hostile"]}
 summon illagerinvasion:basher 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}

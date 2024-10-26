@@ -15,6 +15,9 @@ effect give @e[type=illageandspillage:spiritcaller, tag=ghr_boss] minecraft:rege
 execute as @e[type=illageandspillage:spiritcaller, tag=ghr_boss] run damage @s 0 player_attack by @p
 function grimstone_hold_raid:round3/spiritcaller_minion_spawn_tick
 
+# Make the boss always glow
+effect give @e[tag=ghr_boss] glowing infinite 0 true
+
 # Spawn area 1: 226 311 16
 summon illageandspillage:absorber 226 311 16 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: ""}}
 summon illagerinvasion:provoker 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}

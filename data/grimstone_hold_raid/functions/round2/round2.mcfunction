@@ -2,6 +2,9 @@
 scoreboard players set ghr.state ghr.round 2
 scoreboard players set ghr.state ghr.rep 1
 
+# Clear previous schedule
+function grimstone_hold_raid:round1/clear_schedule
+
 # Update countdown time
 scoreboard players add ghr.state ghr.time_remaining_seconds 360
 

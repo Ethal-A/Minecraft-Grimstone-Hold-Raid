@@ -6,6 +6,7 @@ tellraw @a "Round 7, Rep 1"
 title @a reset
 
 # Random imps
+schedule function grimstone_hold_raid:dispensers/dispenser 5s
 schedule function grimstone_hold_raid:kaboomers/kaboomer 10s
 
 # Spawn boss area: 210 310 -3

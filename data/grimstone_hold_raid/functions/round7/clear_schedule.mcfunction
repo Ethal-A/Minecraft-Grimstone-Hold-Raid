@@ -5,6 +5,7 @@ schedule clear grimstone_hold_raid:round7/rep3
 schedule clear grimstone_hold_raid:round7/rep4
 schedule clear grimstone_hold_raid:round7/rep5
 schedule clear grimstone_hold_raid:round7/rep6
+schedule clear grimstone_hold_raid:dispensers/dispenser
 schedule clear grimstone_hold_raid:kaboomers/kaboomer
 schedule clear grimstone_hold_raid:round6/equip_all_with_blast_protection
 schedule clear grimstone_hold_raid:round6/plant_living_bomb

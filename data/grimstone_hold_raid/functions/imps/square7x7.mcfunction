@@ -1,4 +1,4 @@
-tag @r[x=185, y=300, z=-25, dx=47, dy=19, dz=47] add imp_target
+tag @r[gamemode=!spectator, x=185, y=300, z=-25, dx=47, dy=19, dz=47] add imp_target
 
 execute as @a[tag=imp_target] run summon illageandspillage:imp ~ ~ ~
 

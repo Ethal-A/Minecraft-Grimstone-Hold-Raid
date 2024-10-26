@@ -33,7 +33,7 @@ effect give @e[tag=ghr_boss] glowing infinite 0 true
 
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
-effect give @e[tag=ghr_hostile] minecraft:fire_resistance 10 1 true # TODO: Remove and figure out something else?
+effect give @e[tag=ghr_hostile] minecraft:fire_resistance 10 1 true
 
 # Add all newly generated hostiles to a team
 team join ghr_hostile_mobs @e[tag=ghr_hostile]

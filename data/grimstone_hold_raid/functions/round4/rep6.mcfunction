@@ -1,5 +1,5 @@
 # Set variables
-scoreboard players set ghr.state ghr.rep 3
+scoreboard players set ghr.state ghr.rep 6
 
 # Inform the player
 tellraw @a "Round 4, Rep 6"

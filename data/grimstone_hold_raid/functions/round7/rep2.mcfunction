@@ -5,7 +5,7 @@ scoreboard players set ghr.state ghr.rep 2
 tellraw @a "Round 7, Rep 2"
 
 # Schedule bombs
-function grimstone_hold_raid:round6/plant_living_bomb
+function grimstone_hold_raid:living_bombs/plant_living_bomb
 schedule function grimstone_hold_raid:kaboomers/kaboomer 30s
 schedule function grimstone_hold_raid:dispensers/dispenser 50s
 

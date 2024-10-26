@@ -5,7 +5,7 @@ scoreboard players set ghr.state ghr.rep 4
 tellraw @a "Round 7, Rep 4"
 
 # Schedule bombs
-function grimstone_hold_raid:round6/plant_living_bomb
+function grimstone_hold_raid:living_bombs/plant_living_bomb
 schedule function grimstone_hold_raid:kaboomers/kaboomer 30s
 
 # Spawn area 1: 226 311 16

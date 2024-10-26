@@ -1,0 +1,7 @@
+function grimstone_hold_raid:round1/clear_schedule
+function grimstone_hold_raid:round2/clear_schedule
+function grimstone_hold_raid:round3/clear_schedule
+function grimstone_hold_raid:round4/clear_schedule
+function grimstone_hold_raid:round5/clear_schedule
+function grimstone_hold_raid:round6/clear_schedule
+function grimstone_hold_raid:round7/clear_schedule

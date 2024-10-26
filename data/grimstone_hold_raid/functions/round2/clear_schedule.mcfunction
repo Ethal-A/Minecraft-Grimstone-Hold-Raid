@@ -1,0 +1,10 @@
+schedule clear grimstone_hold_raid:round2/goliath_minion_spawn_tick
+schedule clear grimstone_hold_raid:round2/goliath_support_spawn
+schedule clear grimstone_hold_raid:round2/goliath_support_tick
+schedule clear grimstone_hold_raid:round2/rep1
+schedule clear grimstone_hold_raid:round2/rep2
+schedule clear grimstone_hold_raid:round2/rep3
+schedule clear grimstone_hold_raid:round2/rep4
+schedule clear grimstone_hold_raid:imps/cross30
+schedule clear grimstone_hold_raid:imps/cross9
+schedule clear grimstone_hold_raid:imps/square7x7

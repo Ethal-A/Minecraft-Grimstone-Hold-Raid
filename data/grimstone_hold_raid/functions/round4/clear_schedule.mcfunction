@@ -1,0 +1,10 @@
+schedule clear grimstone_hold_raid:round4/cave_spider_check
+schedule clear grimstone_hold_raid:round4/rep1
+schedule clear grimstone_hold_raid:round4/rep2
+schedule clear grimstone_hold_raid:round4/rep3
+schedule clear grimstone_hold_raid:round4/rep4
+schedule clear grimstone_hold_raid:round4/rep5
+schedule clear grimstone_hold_raid:round4/rep6
+schedule clear grimstone_hold_raid:skull_bombs/skull_bomb
+schedule clear grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb
+schedule clear grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3

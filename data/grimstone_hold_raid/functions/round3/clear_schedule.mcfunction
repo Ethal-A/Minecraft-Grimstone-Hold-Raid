@@ -1,0 +1,12 @@
+schedule clear grimstone_hold_raid:round3/spiritcaller_minion_spawn_tick
+schedule clear grimstone_hold_raid:round3/spiritcaller_support_spawn
+schedule clear grimstone_hold_raid:round3/spiritcaller_support_tick
+schedule clear grimstone_hold_raid:round3/trigger_hostility
+schedule clear grimstone_hold_raid:round3/rep1
+schedule clear grimstone_hold_raid:round3/rep2
+schedule clear grimstone_hold_raid:round3/rep3
+schedule clear grimstone_hold_raid:round3/rep4
+schedule clear grimstone_hold_raid:round3/rep5
+schedule clear grimstone_hold_raid:imps/cross30
+schedule clear grimstone_hold_raid:imps/cross9
+schedule clear grimstone_hold_raid:imps/square7x7

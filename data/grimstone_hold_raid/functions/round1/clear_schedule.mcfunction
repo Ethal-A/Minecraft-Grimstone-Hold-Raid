@@ -1,0 +1,9 @@
+schedule clear grimstone_hold_raid:round1/rep1
+schedule clear grimstone_hold_raid:round1/rep2
+schedule clear grimstone_hold_raid:round1/rep3
+schedule clear grimstone_hold_raid:round1/rep4
+schedule clear grimstone_hold_raid:round1/rep5
+schedule clear grimstone_hold_raid:round1/rep6
+schedule clear grimstone_hold_raid:imps/cross30
+schedule clear grimstone_hold_raid:imps/cross9
+schedule clear grimstone_hold_raid:imps/square7x7

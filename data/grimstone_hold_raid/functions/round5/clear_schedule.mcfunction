@@ -1,0 +1,13 @@
+schedule clear grimstone_hold_raid:round5/cave_spider_check
+schedule clear grimstone_hold_raid:round5/freakager_minion_spawn_tick
+schedule clear grimstone_hold_raid:round5/freakager_summon_swarm
+schedule clear grimstone_hold_raid:round5/ragno_minion_spawn_tick
+schedule clear grimstone_hold_raid:round5/set_ragno_name
+schedule clear grimstone_hold_raid:round5/rep1
+schedule clear grimstone_hold_raid:round5/rep2
+schedule clear grimstone_hold_raid:round5/rep3
+schedule clear grimstone_hold_raid:round5/rep4
+schedule clear grimstone_hold_raid:round5/rep5
+schedule clear grimstone_hold_raid:skull_bombs/skull_bomb
+schedule clear grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb
+schedule clear grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3

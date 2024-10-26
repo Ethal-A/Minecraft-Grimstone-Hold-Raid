@@ -5,3 +5,6 @@ execute at @e[name="Spiritcaller"] run summon minecraft:vex ~ ~ ~3 {Tags:["ghr_h
 
 execute if entity @e[tag=ghr_boss_invul_buff] run effect give @e[name="Spiritcaller", tag=ghr_boss] resistance 20 10 false
 effect give @e[tag=ghr_boss_invul_buff] glowing 25 0 true
+
+# Add all newly generated hostiles to a team
+team join ghr_hostile_mobs @e[tag=ghr_hostile]

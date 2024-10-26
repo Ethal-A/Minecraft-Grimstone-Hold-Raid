@@ -9,3 +9,6 @@ execute at @e[name="Ragno"] run summon minecraft:cave_spider ~4 ~ ~4 {Tags:["ghr
 # Adjust mobs
 scale set pehkui:height 0.5 @e[type=minecraft:cave_spider, tag=ghr_boss_minion]
 scale set pehkui:width 0.5 @e[type=minecraft:cave_spider, tag=ghr_boss_minion]
+
+# Add all newly generated hostiles to a team
+team join ghr_hostile_mobs @e[tag=ghr_hostile]

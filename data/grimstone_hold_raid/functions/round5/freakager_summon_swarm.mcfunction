@@ -19,3 +19,6 @@ effect give @e[type=spider, tag=ghr_hostile] slow_falling 10 0
 
 # Set anger
 execute as @e[type=spider] run data modify entity @s AngryAt set from entity @p UUID
+
+# Add all newly generated hostiles to a team
+team join ghr_hostile_mobs @e[tag=ghr_hostile]

@@ -1,8 +1,0 @@
-# Using world edit to make the arena:
-# Decide on a tool to use
-//tool
-
-# Select the dimensions to make a 47 width and length with 19 height bedrock structure with:
-//set bedrock
-//outset 1
-//hollow 1

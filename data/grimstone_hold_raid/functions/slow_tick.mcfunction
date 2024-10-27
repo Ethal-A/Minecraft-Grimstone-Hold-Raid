@@ -1,10 +1,3 @@
-# Arena corner where all x,y,z increase and with the following distances:
-# X: 185
-# Y: 300
-# Z: -25
-# dx: 47
-# dy: 19
-# dz: 47
 # Repeating on condition
 execute if score ghr.state ghr.raid_ongoing matches 1 run schedule function grimstone_hold_raid:slow_tick 1s
 

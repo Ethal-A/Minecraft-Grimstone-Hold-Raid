@@ -11,8 +11,8 @@ schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s
 schedule function grimstone_hold_raid:skull_bombs/skull_bomb 15s
 
 # Spawn boss area: 210 310 -3
-summon mutantmonsters:spider_pig 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], Attributes:[{Name:"generic.max_health",Base:400f}], Health:400}
-summon mutantmonsters:spider_pig 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], Attributes:[{Name:"generic.max_health",Base:400f}], Health:400}
+summon mutantmonsters:spider_pig 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], Attributes:[{Name:"generic.max_health",Base:500f}], Health:500}
+summon mutantmonsters:spider_pig 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], Attributes:[{Name:"generic.max_health",Base:500f}], Health:500}
 effect give @e[type=mutantmonsters:spider_pig, tag=ghr_boss] minecraft:speed infinite 0 true
 effect give @e[type=mutantmonsters:spider_pig, tag=ghr_boss] minecraft:strength infinite 0 true
 scale set pehkui:height 1.5 @e[type=mutantmonsters:spider_pig, tag=ghr_boss]

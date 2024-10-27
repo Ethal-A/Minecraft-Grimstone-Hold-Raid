@@ -1,6 +1,9 @@
 # Set variables
 scoreboard players set ghr.state ghr.rep 3
 
+# Schedule bombs
+schedule function grimstone_hold_raid:kaboomers/kaboomer 3s
+
 # Inform the player
 tellraw @a "Round 7, Rep 3"
 

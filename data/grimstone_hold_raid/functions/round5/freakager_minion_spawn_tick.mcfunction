@@ -1,3 +1,3 @@
-execute if entity @e[name="Freakager", tag=ghr_boss] run schedule function grimstone_hold_raid:round5/freakager_minion_spawn_tick 60s
+execute if entity @e[name="Freakager", tag=ghr_boss] run schedule function grimstone_hold_raid:round5/freakager_minion_spawn_tick 120s
 execute if entity @e[name="Freakager", tag=ghr_boss] run tellraw @a {"text":"The Freakager calls upon the swarm...","color":"red"}
 execute if entity @e[name="Freakager", tag=ghr_boss] as @a[x=185, y=300, z=-25, dx=47, dy=19, dz=47] run function grimstone_hold_raid:round5/freakager_summon_swarm

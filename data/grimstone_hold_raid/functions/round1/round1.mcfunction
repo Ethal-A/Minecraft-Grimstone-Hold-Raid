@@ -6,11 +6,13 @@ scoreboard players set ghr.state ghr.rep 1
 playsound illageandspillage:entity.boss_randomizer.boss master @a
 title @a title "Round 1"
 
-schedule function grimstone_hold_raid:round1/rep1 30s
-schedule function grimstone_hold_raid:round1/rep2 60s
-schedule function grimstone_hold_raid:round1/rep3 90s
-schedule function grimstone_hold_raid:round1/rep4 150s
+# Schedule reps
+schedule function grimstone_hold_raid:round1/rep1 10s
+schedule function grimstone_hold_raid:round1/rep2 40s
+schedule function grimstone_hold_raid:round1/rep3 70s
+
+schedule function grimstone_hold_raid:round1/rep4 160s
 schedule function grimstone_hold_raid:round1/rep5 190s
-schedule function grimstone_hold_raid:round1/rep6 250s
+schedule function grimstone_hold_raid:round1/rep6 220s
 
 tellraw @a {"text":"You dare challenge the Spiritcaller...","color":"red"}

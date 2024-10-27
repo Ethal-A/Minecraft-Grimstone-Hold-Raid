@@ -31,8 +31,8 @@ execute if score ghr.state ghr.hostiles_remaining matches ..10 run effect give @
 # There are 6 reps in round 1
 execute if score ghr.state ghr.hostiles_remaining matches 0 if score ghr.state ghr.round matches 1 if score ghr.state ghr.rep matches 6 run function grimstone_hold_raid:round2/round2
 
-# There are 4 reps in round 2
-execute if score ghr.state ghr.hostiles_remaining matches 0 if score ghr.state ghr.round matches 2 if score ghr.state ghr.rep matches 4 run function grimstone_hold_raid:round3/round3
+# There are 5 reps in round 2
+execute if score ghr.state ghr.hostiles_remaining matches 0 if score ghr.state ghr.round matches 2 if score ghr.state ghr.rep matches 5 run function grimstone_hold_raid:round3/round3
 
 # There are 5 reps in round 3
 execute if score ghr.state ghr.hostiles_remaining matches 0 if score ghr.state ghr.round matches 3 if score ghr.state ghr.rep matches 5 run function grimstone_hold_raid:round4/round4

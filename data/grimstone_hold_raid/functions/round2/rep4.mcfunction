@@ -2,7 +2,7 @@
 scoreboard players set ghr.state ghr.rep 4
 
 # Inform the player
-tellraw @a "Round 2, Rep 4 (final rep)"
+tellraw @a "Round 2, Rep 4"
 
 # Random imps
 function grimstone_hold_raid:imps/cross9

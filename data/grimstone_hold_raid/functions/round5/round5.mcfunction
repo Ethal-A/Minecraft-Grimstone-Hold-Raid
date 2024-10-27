@@ -6,11 +6,11 @@ scoreboard players set ghr.state ghr.rep 1
 function grimstone_hold_raid:round4/clear_schedule
 
 # Update countdown time
-scoreboard players add ghr.state ghr.time_remaining_seconds 360
+scoreboard players add ghr.state ghr.time_remaining_seconds 660
 
 # Display and notify player
 playsound illageandspillage:entity.boss_randomizer.boss master @a
-title @a subtitle "+6 Minutes"
+title @a subtitle "+11 Minutes"
 title @a title "Round 5"
 
 # Run repeating function

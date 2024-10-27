@@ -31,8 +31,8 @@ To make your life easier, I have included all the references that need changing 
 ### WorldEdit
 This will not cover everything WorldEdit can do and nor am I an expert on it. Here is just some simple commands you may find useful for generating the arena.
 
-Decide on a tool to use for WorldEdit and then type the following command into the chat bar while holding the tool:
-- `//tool`
+Get a select wand for WorldEdit using the command:
+- `//wand`
 
 Select a start and end point using your tool (left mouse button and right mouse button on a block) to create a square or rectangle for the arena. Use the following commands to generate a hollow bedrock square or rectangle:
 - `//set bedrock`

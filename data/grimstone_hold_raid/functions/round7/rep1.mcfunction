@@ -10,8 +10,8 @@ schedule function grimstone_hold_raid:dispensers/dispenser 5s
 schedule function grimstone_hold_raid:kaboomers/kaboomer 10s
 
 # Spawn boss area: 210 310 -3
-summon illageandspillage:magispeller 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Magispeller"}]', Attributes:[{Name:"generic.max_health",Base:6500f}], Health:6500, ForgeData: {InfernalMobsMod: "notInfernal"}}
-effect give @e[type=illageandspillage:magispeller, tag=ghr_boss] minecraft:regeneration infinite 2 true
+summon illageandspillage:magispeller 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Magispeller"}]', Attributes:[{Name:"generic.max_health",Base:5500f}], Health:5500, ForgeData: {InfernalMobsMod: "notInfernal"}}
+effect give @e[type=illageandspillage:magispeller, tag=ghr_boss] minecraft:regeneration infinite 0 true
 execute as @e[type=illageandspillage:magispeller, tag=ghr_boss] run damage @s 0 player_attack by @p
 schedule function grimstone_hold_raid:round7/magispeller_minion_spawn_tick 20s
 

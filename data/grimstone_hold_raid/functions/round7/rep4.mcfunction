@@ -16,7 +16,7 @@ summon illagerinvasion:inquisitor 226 311 16 {Tags:["ghr_hostile"], PersistenceR
 summon illagerinvasion:inquisitor 226 311 16 {Tags:["ghr_hostile"], PersistenceRequired:1b,HandItems:[{id:iron_sword,Count:1},{id:shield,Count:1}],HandDropChances:[0f,0f]}
 
 # Spawn area 2: 190 309 14
-summon illageandspillage:absorber 190 309 14 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: ""}}
+summon illageandspillage:absorber 190 309 14 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: "notInfernal"}}
 multisummon spread 2 2 2 vex 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:"simplyswords:gold_rapier",Count:1}, {id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.01f,0.01f], Attributes:[{Name:"generic.armor",Base:2f}], active_effects:[{id:strength,amplifier:1,show_particles:0b}]}
 summon irons_spellbooks:cryomancer 190 309 14
 
@@ -28,7 +28,7 @@ summon illagerinvasion:inquisitor 192 309 -18 {Tags:["ghr_hostile"], Persistence
 summon illagerinvasion:inquisitor 192 309 -18 {Tags:["ghr_hostile"], PersistenceRequired:1b,HandItems:[{id:iron_sword,Count:1},{id:shield,Count:1}],HandDropChances:[0f,0f]}
 
 # Spawn area 4: 225 309 -19
-summon illageandspillage:absorber 225 309 -19 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: ""}}
+summon illageandspillage:absorber 225 309 -19 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: "notInfernal"}}
 multisummon spread 2 2 2 vex 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:"simplyswords:gold_rapier",Count:1}, {id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.01f,0.01f], Attributes:[{Name:"generic.armor",Base:2f}], active_effects:[{id:strength,amplifier:1,show_particles:0b}]}
 summon irons_spellbooks:pyromancer 225 309 -19
 

@@ -10,7 +10,7 @@ function grimstone_hold_raid:living_bombs/plant_living_bomb
 schedule function grimstone_hold_raid:kaboomers/kaboomer 30s
 
 # Spawn boss area: 210 310 -3
-summon mutantmonsters:mutant_creeper 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Dyna"}]', Attributes:[{Name:"generic.max_health",Base:800f}], Health:800, ForgeData: {InfernalMobsMod: ""}}
+summon mutantmonsters:mutant_creeper 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Dyna"}]', Attributes:[{Name:"generic.max_health",Base:800f}], Health:800, ForgeData: {InfernalMobsMod: "notInfernal"}}
 scale set pehkui:height 1.5 @e[type=mutantmonsters:mutant_creeper, tag=ghr_boss]
 scale set pehkui:width 1.5 @e[type=mutantmonsters:mutant_creeper, tag=ghr_boss]
 

@@ -43,8 +43,10 @@ Testing was conducted on a square whose interor block length and width was 47 (c
 
 ### Starting the Arena
 You will want to setup buttons with command blocks somewhere to allow players to:
-1. Teleport to the arena (if there is no other way in)
-1. Teleport from the arena (if there is no other way in)
-1. Start the arena (will require a chain command block)
+1. Teleport to the arena (if there is no way in)
+1. Teleport from the arena (if there is no way out)
+1. Start the arena (will require both a command block and a chain command block):
+    1. The command block will execute `function grimstone_hold_raid:load` to load everything.
+    1. The chain block connected to the command block will execute `function grimstone_hold_raid:round1/round1`. Replace the round number to start at different rounds.
 
 To start the arena you need a command block that executes the load function followed by chain command block that executes the round you want to start at.

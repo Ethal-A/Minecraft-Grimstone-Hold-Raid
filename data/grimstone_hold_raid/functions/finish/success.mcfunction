@@ -1,4 +1,4 @@
-title @a title "Raid Complete"
+title @a title {"text":"Raid Completed","bold":true,"color":"yellow"}
 tellraw @a {"text":"Congradulations on completing the Grimstone Hold Raid", "color": "yellow"}
 
 scoreboard players set ghr.state ghr.raid_ongoing 0

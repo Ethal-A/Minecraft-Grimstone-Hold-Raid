@@ -56,5 +56,6 @@ execute as @a[scores={ghr.respawn_countdown=2}] run tellraw @s "2 seconds until 
 execute as @a[scores={ghr.respawn_countdown=1}] run tellraw @s "1 seconds until respawn"
 execute as @a[scores={ghr.respawn_countdown=..0}] run function grimstone_hold_raid:util/respawn_player
 
-# Handle failure (check that it is ongoing because otherwise this function may execute twice)
-execute if score ghr.state ghr.players_remaining matches 0 if score ghr.state ghr.raid_ongoing matches 1 run function grimstone_hold_raid:finish/failure
+# Handle failure (check that it is ongoing because otherwise these functions may execute twice and it could also execute when the raid is finished)
+execute if score ghr.state ghr.raid_ongoing matches 1 if score ghr.state ghr.players_remaining matches 0 run function grimstone_hold_raid:finish/failure
+execute if score ghr.state ghr.raid_ongoing matches 1 if score ghr.state ghr.time_remaining_seconds matches ..0 run function grimstone_hold_raid:finish/failure

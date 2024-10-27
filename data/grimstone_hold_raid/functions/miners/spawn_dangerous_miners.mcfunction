@@ -1,3 +1,5 @@
+tellraw @a {"text":"Dangerous miners have been dispatched to break down your defences", "color":"red"}
+
 # Spawn area 1: 226 311 16
 summon minecraft:zombie 226 311 16 {Tags:["ghr_hostile", "ghr_hostile_miner"], CustomName:'[{"text":"Dangerous Miner"}]', HandItems: [{id:stone_sword,Count:1}, {id: "minecraft:stone_pickaxe", tag: {Damage: 0}, Count: 1b}], ForgeData: {InfernalMobsMod: "notInfernal", "enhancedai:time_to_break_multiplier": 1.0d, "enhancedai:miner": 1b, "enhancedai:sprint": 0b}, ArmorItems:[{id:leather_boots,tag:{display:{color:16776960}},Count:1},{id:leather_leggings,tag:{display:{color:16776960}},Count:1},{id:leather_chestplate,tag:{display:{color:16776960}},Count:1},{id:leather_helmet,tag:{display:{color:16776960}},Count:1}],ArmorDropChances:[0f,0f,0f,0f], Attributes:[{Name:"generic.max_health",Base:20f}], ActiveEffects:[{Id:12,Duration:30,ShowParticles:0b}], Health:20}
 

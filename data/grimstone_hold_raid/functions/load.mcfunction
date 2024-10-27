@@ -39,6 +39,6 @@ function grimstone_hold_raid:slow_tick
 # Change game rules
 tellraw @a "Players will keep their inventory on death."
 tellraw @a "Players will immediately respawn."
-tellraw @a "Players will have a respawn delay if they die inside the arena."
+tellraw @a "Players will have a respawn delay and will respawn at the arena."
 gamerule keepInventory true
 gamerule doImmediateRespawn true

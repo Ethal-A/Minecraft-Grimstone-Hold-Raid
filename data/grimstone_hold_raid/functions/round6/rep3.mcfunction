@@ -30,6 +30,9 @@ multisummon spread 1 2 2 illagerinvasion:inquisitor 192 309 -18 {Tags:["ghr_host
 summon minecraft:vindicator 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
 summon illageandspillage:twittollager 225 309 -19 {Tags:["ghr_hostile"]}
 
+# Spawn miners
+function grimstone_hold_raid:miners/spawn_sprint_dangerous_miners
+
 # Adjust mobs
 effect give @e[type=minecraft:creeper, tag=ghr_enlarge] speed infinite 1 true
 scale set pehkui:height 2 @e[type=minecraft:creeper, tag=ghr_enlarge]

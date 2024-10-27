@@ -35,6 +35,9 @@ execute as @e[type=irons_spellbooks:cryomancer, tag=ghr_hostile] run tag @s add 
 
 schedule function grimstone_hold_raid:round3/trigger_hostility 5s
 
+# Spawn miners
+function grimstone_hold_raid:miners/spawn_teleporting_miners
+
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
 

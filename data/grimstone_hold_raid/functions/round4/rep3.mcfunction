@@ -39,6 +39,9 @@ multisummon spread 3 3 2 minecraft:cave_spider 225 309 -19 {Tags:["ghr_hostile",
 scale set pehkui:height 0.5 @e[type=minecraft:cave_spider, tag=ghr_boss_minion]
 scale set pehkui:width 0.5 @e[type=minecraft:cave_spider, tag=ghr_boss_minion]
 
+# Spawn miners
+function grimstone_hold_raid:miners/spawn_dangerous_miners
+
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
 

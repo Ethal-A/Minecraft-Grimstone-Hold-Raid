@@ -34,6 +34,9 @@ effect give @e[type=minecraft:pillager, tag=small_and_fast] minecraft:speed infi
 scale set pehkui:height 0.7 @e[type=minecraft:pillager, tag=small_and_fast]
 scale set pehkui:width 0.7 @e[type=minecraft:pillager, tag=small_and_fast]
 
+# Spawn miners
+function grimstone_hold_raid:miners/spawn_miners
+
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
 

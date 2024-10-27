@@ -44,6 +44,9 @@ schedule function grimstone_hold_raid:round3/trigger_hostility 5s
 # Apply effects to some hostiles
 effect give @e[type=illageandspillage:absorber, tag=ghr_hostile] minecraft:speed infinite 5 true
 
+# Spawn miners
+function grimstone_hold_raid:miners/spawn_teleporting_miners
+
 # Adjust mobs
 function grimstone_hold_raid:equip_hostiles/equip_all_with_blast_protection
 

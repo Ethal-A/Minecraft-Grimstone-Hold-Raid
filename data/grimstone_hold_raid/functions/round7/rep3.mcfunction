@@ -23,6 +23,9 @@ multisummon spread 1 2 2 pillager 192 309 -18 {Tags:["ghr_hostile"], HandItems:[
 multisummon spread 1 1 2 illagerinvasion:inquisitor 225 309 -19 {Tags:["ghr_hostile"], PersistenceRequired:1b,HandItems:[{id:iron_sword,Count:1},{id:shield,Count:1}],HandDropChances:[0f,0f]}
 multisummon spread 1 2 2 pillager 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}
 
+# Spawn miners
+function grimstone_hold_raid:miners/spawn_sprint_dangerous_miners
+
 # Adjust mobs
 function grimstone_hold_raid:equip_hostiles/equip_all_with_blast_protection
 

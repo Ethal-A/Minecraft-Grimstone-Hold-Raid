@@ -32,6 +32,9 @@ summon ravager 192 309 -18 {Tags:["ghr_hostile"], Attributes:[{Name:"generic.arm
 # Spawn area 4: 225 309 -19
 summon ravager 225 309 -19 {Tags:["ghr_hostile"], Attributes:[{Name:"generic.armor",Base:10f}], Passengers:[{id:pillager, Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}]}
 
+# Spawn miners
+function grimstone_hold_raid:miners/spawn_miners
+
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
 

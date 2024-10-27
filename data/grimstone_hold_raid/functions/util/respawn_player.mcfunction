@@ -1,4 +1,4 @@
-tp 210 308 -3
+tp 5074 306 -2081
 gamemode survival
 tellraw @s "Respawned"
 effect give @s resistance 5 10 true

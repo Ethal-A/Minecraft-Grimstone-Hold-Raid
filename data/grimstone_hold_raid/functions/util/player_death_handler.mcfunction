@@ -2,6 +2,6 @@
 scoreboard players set @s ghr.respawn_countdown 60
 scoreboard players reset @s ghr.has_died
 gamemode spectator @s
-tp 210 308 -3
+tp 5074 306 -2081
 title @s title "Respawn in 60s"
 tellraw @s "60 seconds until respawn"

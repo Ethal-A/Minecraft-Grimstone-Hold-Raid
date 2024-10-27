@@ -9,33 +9,33 @@ title @a reset
 function grimstone_hold_raid:living_bombs/plant_living_bomb
 schedule function grimstone_hold_raid:kaboomers/kaboomer 30s
 
-# Spawn boss area: 210 310 -3
-summon mutantmonsters:mutant_creeper 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Dyna"}]', Attributes:[{Name:"generic.max_health",Base:800f}], Health:800, ForgeData: {InfernalMobsMod: "notInfernal"}}
+# Spawn boss area: 5074 308 -2081
+summon mutantmonsters:mutant_creeper 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Dyna"}]', Attributes:[{Name:"generic.max_health",Base:800f}], Health:800, ForgeData: {InfernalMobsMod: "notInfernal"}}
 scale set pehkui:height 1.5 @e[type=mutantmonsters:mutant_creeper, tag=ghr_boss]
 scale set pehkui:width 1.5 @e[type=mutantmonsters:mutant_creeper, tag=ghr_boss]
 
 # Make the boss always glow
 effect give @e[tag=ghr_boss] glowing infinite 0 true
 
-# Spawn area 1: 226 311 16
-summon illageandspillage:twittollager 226 311 16 {Tags:["ghr_hostile"]}
-summon illageandspillage:crocofang 226 311 16 {Tags:["ghr_hostile"]}
-summon minecraft:creeper 226 311 16 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
+# Spawn area 1: 5055 308 -2100
+summon illageandspillage:twittollager 5055 308 -2100 {Tags:["ghr_hostile"]}
+summon illageandspillage:crocofang 5055 308 -2100 {Tags:["ghr_hostile"]}
+summon minecraft:creeper 5055 308 -2100 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
 
-# Spawn area 2: 190 309 14
-summon illageandspillage:twittollager 190 309 14 {Tags:["ghr_hostile"]}
-summon illageandspillage:crocofang 190 309 14 {Tags:["ghr_hostile"]}
-summon minecraft:creeper 190 309 14 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
+# Spawn area 2: 5093 308 -2100
+summon illageandspillage:twittollager 5093 308 -2100 {Tags:["ghr_hostile"]}
+summon illageandspillage:crocofang 5093 308 -2100 {Tags:["ghr_hostile"]}
+summon minecraft:creeper 5093 308 -2100 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
 
-# Spawn area 3: 192 309 -18
-summon illageandspillage:twittollager 192 309 -18 {Tags:["ghr_hostile"]}
-summon illageandspillage:crocofang 192 309 -18 {Tags:["ghr_hostile"]}
-summon minecraft:creeper 192 309 -18 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
+# Spawn area 3: 5055 308 -2062
+summon illageandspillage:twittollager 5055 308 -2062 {Tags:["ghr_hostile"]}
+summon illageandspillage:crocofang 5055 308 -2062 {Tags:["ghr_hostile"]}
+summon minecraft:creeper 5055 308 -2062 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
 
-# Spawn area 4: 225 309 -19
-summon illageandspillage:twittollager 225 309 -19 {Tags:["ghr_hostile"]}
-summon illageandspillage:crocofang 225 309 -19 {Tags:["ghr_hostile"]}
-summon minecraft:creeper 225 309 -19 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
+# Spawn area 4: 5093 308 -2062
+summon illageandspillage:twittollager 5093 308 -2062 {Tags:["ghr_hostile"]}
+summon illageandspillage:crocofang 5093 308 -2062 {Tags:["ghr_hostile"]}
+summon minecraft:creeper 5093 308 -2062 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
 
 # Adjust mobs
 effect give @e[type=minecraft:creeper, tag=ghr_enlarge] speed infinite 1 true

@@ -35,6 +35,7 @@ team modify ghr_hostile_mobs friendlyFire false
 
 # Begin slow tick
 function grimstone_hold_raid:slow_tick
+function grimstone_hold_raid:very_slow_tick
 
 # Change game rules
 tellraw @a "Players will keep their inventory on death."

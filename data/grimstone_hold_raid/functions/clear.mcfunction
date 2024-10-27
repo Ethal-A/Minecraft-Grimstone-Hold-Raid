@@ -30,4 +30,5 @@ gamerule doImmediateRespawn false
 
 # Clear schedule
 schedule clear grimstone_hold_raid:slow_tick
+schedule clear grimstone_hold_raid:very_slow_tick
 function grimstone_hold_raid:finish/clear_all_ghr_schedule

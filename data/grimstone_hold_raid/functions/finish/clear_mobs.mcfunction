@@ -1,2 +1,2 @@
 kill @e[tag=ghr_hostile]
-kill @e[type=!player, x=185, y=300, z=-25, dx=47, dy=19, dz=47]
+kill @e[type=!player, x=5046, y=298, z=-2109, dx=57, dy=21, dz=57]

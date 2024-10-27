@@ -1,1 +1,1 @@
-execute as @r[gamemode=!spectator, x=185, y=300, z=-25, dx=47, dy=19, dz=47] run summon illageandspillage:pumpkin_bomb ~ ~10 ~
+execute at @r[gamemode=!spectator, x=5046, y=298, z=-2109, dx=57, dy=21, dz=57] run summon illageandspillage:pumpkin_bomb ~ ~10 ~

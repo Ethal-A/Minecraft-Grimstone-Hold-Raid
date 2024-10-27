@@ -3,11 +3,12 @@ tellraw @a {"text":"You failed to complete the Grimstone Hold Raid", "color": "r
 
 execute as @a[gamemode=spectator] run function grimstone_hold_raid:util/respawn_player
 stopsound @a music
-playsound spore:rebirth music @a
+playsound spore:rebirth master @a
 
 scoreboard players set ghr.state ghr.raid_ongoing 0
 function grimstone_hold_raid:finish/clear_mobs_and_items
 function grimstone_hold_raid:finish/clear_all_ghr_schedule
+schedule function grimstone_hold_raid:finish/clear_all_ghr_schedule 5s
 
 schedule function grimstone_hold_raid:finish/print_player_scores 10s
 schedule function grimstone_hold_raid:clear 20s

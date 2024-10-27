@@ -9,23 +9,23 @@ function grimstone_hold_raid:living_bombs/plant_living_bomb
 schedule function grimstone_hold_raid:kaboomers/kaboomer 30s
 schedule function grimstone_hold_raid:dispensers/dispenser 50s
 
-# Spawn area 1: 226 311 16
-summon illagerinvasion:firecaller 226 311 16 {Tags:["ghr_hostile"]}
-summon illagerinvasion:marauder 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
-summon illagerinvasion:marauder 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
+# Spawn area 1: 5055 308 -2100
+summon illagerinvasion:firecaller 5055 308 -2100 {Tags:["ghr_hostile"]}
+summon illagerinvasion:marauder 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
+summon illagerinvasion:marauder 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
 
-# Spawn area 2: 190 309 14
-summon minecraft:creeper 190 309 14 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
-summon illageandspillage:twittollager 190 309 14 {Tags:["ghr_hostile"]}
+# Spawn area 2: 5093 308 -2100
+summon minecraft:creeper 5093 308 -2100 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
+summon illageandspillage:twittollager 5093 308 -2100 {Tags:["ghr_hostile"]}
 
-# Spawn area 3: 192 309 -18
-summon illagerinvasion:firecaller 192 309 -18 {Tags:["ghr_hostile"]}
-summon illagerinvasion:marauder 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
-summon illagerinvasion:marauder 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
+# Spawn area 3: 5055 308 -2062
+summon illagerinvasion:firecaller 5055 308 -2062 {Tags:["ghr_hostile"]}
+summon illagerinvasion:marauder 5055 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
+summon illagerinvasion:marauder 5055 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
 
-# Spawn area 4: 225 309 -19
-summon minecraft:creeper 190 309 14 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
-summon illageandspillage:twittollager 225 309 -19 {Tags:["ghr_hostile"]}
+# Spawn area 4: 5093 308 -2062
+summon minecraft:creeper 5093 308 -2100 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
+summon illageandspillage:twittollager 5093 308 -2062 {Tags:["ghr_hostile"]}
 
 # Adjust mobs
 effect give @e[type=minecraft:creeper, tag=ghr_enlarge] speed infinite 1 true

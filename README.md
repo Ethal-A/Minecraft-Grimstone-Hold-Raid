@@ -10,23 +10,23 @@ You will first need to create an arena in your Minecraft world. WorldEdit is a g
 
 ### References that need changing
 To make your life easier, I have included all the references that need changing here. Use whatever method is easiest to change them across the whole datapack.
-- Arena boundries (from one of the corners, expanding in different directions): x=185, y=300, z=-25, dx=47, dy=19, dz=47
-- Player respawn coordinates: 210 308 -3
-- Hostile boss spawn coordinates: 210 310 -3
-- Hostile spawn coordinates 1: 226 311 16
-- Hostile spawn coordinates 2: 190 309 14
-- Hostile spawn coordinates 3: 192 309 -18
-- Hostile spawn coordinates 4: 225 309 -19
-- Reward chest 1: 207 301 -2
-- Reward chest 2: 207 301 -3
-- Reward chest 3: 207 301 -4
-- Reward chest 4 208 301 -2
-- Reward chest 5 208 301 -3
-- Reward chest 6 208 301 -4
-- Reward chest 7 206 301 -2
-- Reward chest 8 206 301 -3
-- Reward chest 9 206 301 -4
-- Success firework: 207 302 -3
+- Arena boundries (from one of the corners, expanding in different directions): x=5046, y=298, z=-2109, dx=57, dy=21, dz=57
+- Player respawn coordinates: 5074 306 -2081
+- Hostile boss spawn coordinates: 5074 308 -2081
+- Hostile spawn coordinates 1: 5055 308 -2100
+- Hostile spawn coordinates 2: 5093 308 -2100
+- Hostile spawn coordinates 3: 5055 308 -2062
+- Hostile spawn coordinates 4: 5093 308 -2062
+- Reward chest 1: 5074 299 -2080
+- Reward chest 2: 5074 299 -2081
+- Reward chest 3: 5074 299 -2082
+- Reward chest 4 5075 299 -2080
+- Reward chest 5 5075 299 -2081
+- Reward chest 6 5075 299 -2082
+- Reward chest 7 5073 299 -2080
+- Reward chest 8 5073 299 -2081
+- Reward chest 9 5073 299 -2082
+- Success firework: 5074 301 -2081
 
 ### WorldEdit
 This will not cover everything WorldEdit can do and nor am I an expert on it. Here is just some simple commands you may find useful for generating the arena.
@@ -39,7 +39,7 @@ Select a start and end point using your tool (left mouse button and right mouse 
 - `//outset 1`
 - `//hollow 1`
 
-Testing was conducted on a square whose interor block length and width was 47 (can fit 47 blocks in a straight line sideways) and interor block height was 19 (can fit 19 blocks in a straight line upwards). You may want to consider something similar for your arena.
+Testing was conducted on a square whose interor block length and width was 47 (can fit 47 blocks in a straight line sideways) and interor block height was 19 (can fit 19 blocks in a straight line upwards). The arena was finally created with width and length of 57 blocks and 21 blocks of height. You may want to consider something similar for your arena.
 
 ### Starting the Arena
 You will want to setup buttons with command blocks somewhere to allow players to:

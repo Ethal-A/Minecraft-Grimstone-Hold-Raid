@@ -9,33 +9,33 @@ schedule function grimstone_hold_raid:skull_bombs/skull_bomb 5s
 schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 15s
 schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 25s
 
-# Spawn area 1: 226 311 16
-summon illageandspillage:igniter 226 311 16 {Tags:["ghr_hostile"]}
-summon illagerinvasion:basher 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
-summon illageandspillage:crocofang 226 311 16 {Tags:["ghr_hostile"]}
-summon minecraft:vindicator 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
-summon minecraft:vindicator 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
+# Spawn area 1: 5055 308 -2100
+summon illageandspillage:igniter 5055 308 -2100 {Tags:["ghr_hostile"]}
+summon illagerinvasion:basher 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
+summon illageandspillage:crocofang 5055 308 -2100 {Tags:["ghr_hostile"]}
+summon minecraft:vindicator 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
+summon minecraft:vindicator 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
 
-# Spawn area 2: 190 309 14
-summon illagerinvasion:basher 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
-summon illagerinvasion:marauder 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
-summon minecraft:vindicator 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
-summon minecraft:vindicator 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
-multisummon spread 3 3 2 minecraft:cave_spider 190 309 14 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Ragno Babies"}]', Attributes:[{Name:"generic.max_health",Base:8}], Health:8}
+# Spawn area 2: 5093 308 -2100
+summon illagerinvasion:basher 5093 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
+summon illagerinvasion:marauder 5093 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
+summon minecraft:vindicator 5093 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
+summon minecraft:vindicator 5093 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
+multisummon spread 3 3 2 minecraft:cave_spider 5093 308 -2100 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Ragno Babies"}]', Attributes:[{Name:"generic.max_health",Base:8}], Health:8}
 
-# Spawn area 3: 192 309 -18
-summon illageandspillage:igniter 192 309 -18 {Tags:["ghr_hostile"]}
-summon illagerinvasion:basher 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
-summon illageandspillage:crocofang 192 309 -18 {Tags:["ghr_hostile"]}
-summon minecraft:vindicator 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
-summon minecraft:vindicator 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
+# Spawn area 3: 5055 308 -2062
+summon illageandspillage:igniter 5055 308 -2062 {Tags:["ghr_hostile"]}
+summon illagerinvasion:basher 5055 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
+summon illageandspillage:crocofang 5055 308 -2062 {Tags:["ghr_hostile"]}
+summon minecraft:vindicator 5055 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
+summon minecraft:vindicator 5055 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
 
-# Spawn area 4: 225 309 -19
-summon illagerinvasion:basher 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
-summon illagerinvasion:marauder 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
-summon minecraft:vindicator 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
-summon minecraft:vindicator 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
-multisummon spread 3 3 2 minecraft:cave_spider 225 309 -19 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Ragno Babies"}]', Attributes:[{Name:"generic.max_health",Base:8}], Health:8}
+# Spawn area 4: 5093 308 -2062
+summon illagerinvasion:basher 5093 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
+summon illagerinvasion:marauder 5093 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
+summon minecraft:vindicator 5093 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
+summon minecraft:vindicator 5093 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}
+multisummon spread 3 3 2 minecraft:cave_spider 5093 308 -2062 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Ragno Babies"}]', Attributes:[{Name:"generic.max_health",Base:8}], Health:8}
 
 # Adjust mobs
 scale set pehkui:height 0.5 @e[type=minecraft:cave_spider, tag=ghr_boss_minion]

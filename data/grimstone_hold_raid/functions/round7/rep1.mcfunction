@@ -9,8 +9,8 @@ title @a reset
 schedule function grimstone_hold_raid:dispensers/dispenser 5s
 schedule function grimstone_hold_raid:kaboomers/kaboomer 10s
 
-# Spawn boss area: 210 310 -3
-summon illageandspillage:magispeller 210 310 -3 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Magispeller"}]', Attributes:[{Name:"generic.max_health",Base:5500f}], Health:5500, ForgeData: {InfernalMobsMod: "notInfernal"}}
+# Spawn boss area: 5074 308 -2081
+summon illageandspillage:magispeller 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Magispeller"}]', Attributes:[{Name:"generic.max_health",Base:5500f}], Health:5500, ForgeData: {InfernalMobsMod: "notInfernal"}}
 effect give @e[type=illageandspillage:magispeller, tag=ghr_boss] minecraft:regeneration infinite 0 true
 execute as @e[type=illageandspillage:magispeller, tag=ghr_boss] run damage @s 0 player_attack by @p
 schedule function grimstone_hold_raid:round7/magispeller_minion_spawn_tick 20s
@@ -18,23 +18,23 @@ schedule function grimstone_hold_raid:round7/magispeller_minion_spawn_tick 20s
 # Make the boss always glow
 effect give @e[tag=ghr_boss] glowing infinite 0 true
 
-# Spawn area 1: 226 311 16
-summon creeper 226 311 16 {Tags:["ghr_hostile"]}
-summon illageandspillage:absorber 226 311 16 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: "notInfernal"}}
-summon illagerinvasion:provoker 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
+# Spawn area 1: 5055 308 -2100
+summon creeper 5055 308 -2100 {Tags:["ghr_hostile"]}
+summon illageandspillage:absorber 5055 308 -2100 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: "notInfernal"}}
+summon illagerinvasion:provoker 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 
-# Spawn area 2: 190 309 14
-summon illagerinvasion:provoker 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
-summon illagerinvasion:basher 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
+# Spawn area 2: 5093 308 -2100
+summon illagerinvasion:provoker 5093 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
+summon illagerinvasion:basher 5093 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 
-# Spawn area 3: 192 309 -18
-summon creeper 192 309 -18 {Tags:["ghr_hostile"]}
-summon illageandspillage:absorber 192 309 -18 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: "notInfernal"}}
-summon illagerinvasion:provoker 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
+# Spawn area 3: 5055 308 -2062
+summon creeper 5055 308 -2062 {Tags:["ghr_hostile"]}
+summon illageandspillage:absorber 5055 308 -2062 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: "notInfernal"}}
+summon illagerinvasion:provoker 5055 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 
-# Spawn area 4: 225 309 -19
-summon illagerinvasion:provoker 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
-summon illagerinvasion:basher 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
+# Spawn area 4: 5093 308 -2062
+summon illagerinvasion:provoker 5093 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
+summon illagerinvasion:basher 5093 308 -2062 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 
 # Apply effects to some hostiles
 effect give @e[type=illageandspillage:absorber, tag=ghr_hostile] minecraft:speed infinite 5 true

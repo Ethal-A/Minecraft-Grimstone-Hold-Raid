@@ -23,15 +23,15 @@ effect give @e[tag=ghr_boss] glowing infinite 0 true
 summon illageandspillage:absorber 226 311 16 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: ""}}
 summon illagerinvasion:provoker 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 
-# Spawn area 1: 190 309 14
+# Spawn area 2: 190 309 14
 summon illagerinvasion:provoker 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 summon illagerinvasion:basher 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 
-# Spawn area 1: 192 309 -18
+# Spawn area 3: 192 309 -18
 summon illagerinvasion:provoker 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 summon illageandspillage:absorber 192 309 -18 {Tags:["ghr_hostile"], ForgeData: {InfernalMobsMod: ""}}
 
-# Spawn area 1: 225 309 -19
+# Spawn area 4: 225 309 -19
 summon illagerinvasion:provoker 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:bow,Count:1},{id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 summon illagerinvasion:basher 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 

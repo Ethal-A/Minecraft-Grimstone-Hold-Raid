@@ -22,17 +22,17 @@ summon illageandspillage:twittollager 226 311 16 {Tags:["ghr_hostile"]}
 summon illageandspillage:crocofang 226 311 16 {Tags:["ghr_hostile"]}
 summon minecraft:creeper 226 311 16 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
 
-# Spawn area 1: 190 309 14
+# Spawn area 2: 190 309 14
 summon illageandspillage:twittollager 190 309 14 {Tags:["ghr_hostile"]}
 summon illageandspillage:crocofang 190 309 14 {Tags:["ghr_hostile"]}
 summon minecraft:creeper 190 309 14 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
 
-# Spawn area 1: 192 309 -18
+# Spawn area 3: 192 309 -18
 summon illageandspillage:twittollager 192 309 -18 {Tags:["ghr_hostile"]}
 summon illageandspillage:crocofang 192 309 -18 {Tags:["ghr_hostile"]}
 summon minecraft:creeper 192 309 -18 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}
 
-# Spawn area 1: 225 309 -19
+# Spawn area 4: 225 309 -19
 summon illageandspillage:twittollager 225 309 -19 {Tags:["ghr_hostile"]}
 summon illageandspillage:crocofang 225 309 -19 {Tags:["ghr_hostile"]}
 summon minecraft:creeper 225 309 -19 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}

@@ -13,15 +13,15 @@ schedule function grimstone_hold_raid:imps/square7x7 10s
 summon illagerinvasion:basher 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 summon illagerinvasion:marauder 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
 
-# Spawn area 1: 190 309 14
+# Spawn area 2: 190 309 14
 summon illagerinvasion:basher 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 summon illagerinvasion:alchemist 190 309 14 {Tags:["ghr_hostile"],HandItems:[{id:bow,Count:1}],Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 
-# Spawn area 1: 192 309 -18
+# Spawn area 3: 192 309 -18
 summon illagerinvasion:basher 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 summon illagerinvasion:marauder 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
 
-# Spawn area 1: 225 309 -19
+# Spawn area 4: 225 309 -19
 summon illagerinvasion:basher 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 summon illagerinvasion:alchemist 225 309 -19 {Tags:["ghr_hostile"],HandItems:[{id:bow,Count:1}],Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 

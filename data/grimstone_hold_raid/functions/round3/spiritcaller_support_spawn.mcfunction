@@ -9,19 +9,19 @@ summon illagerinvasion:alchemist 226 311 16 {Tags:["ghr_hostile"],HandItems:[{id
 summon irons_spellbooks:cryomancer 226 311 16
 multisummon spread 1 1 2 vex 226 311 16 {Tags:["ghr_hostile"], HandItems:[{id:"simplyswords:gold_rapier",Count:1}, {id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.01f,0.01f], Attributes:[{Name:"generic.armor",Base:2f}], active_effects:[{id:strength,amplifier:1,show_particles:0b}]}
 
-# Spawn area 1: 190 309 14
+# Spawn area 2: 190 309 14
 multisummon spread 1 1 2 pillager 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}
 summon illageandspillage:preserver 190 309 14 {Tags:["ghr_hostile"]}
 summon cataclysm:nameless_sorcerer 190 309 14 {Tags:["ghr_hostile", "ghr_boss_invul_buff"], glowing:1b, CustomName:'[{"text":"Nameless Sorcerer"}]', Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:100f}], Health:100}
 
-# Spawn area 1: 192 309 -18
+# Spawn area 3: 192 309 -18
 summon illagerinvasion:basher 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 summon illagerinvasion:marauder 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}
 summon illagerinvasion:alchemist 192 309 -18 {Tags:["ghr_hostile"],HandItems:[{id:bow,Count:1}],Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:80f}], Health:80}
 summon irons_spellbooks:pyromancer 192 309 -18
 multisummon spread 1 1 2 vex 192 309 -18 {Tags:["ghr_hostile"], HandItems:[{id:"simplyswords:gold_rapier",Count:1}, {id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.01f,0.01f], Attributes:[{Name:"generic.armor",Base:2f}], active_effects:[{id:strength,amplifier:1,show_particles:0b}]}
 
-# Spawn area 1: 225 309 -19
+# Spawn area 4: 225 309 -19
 multisummon spread 1 1 2 pillager 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:crossbow,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:4f}]}
 summon illageandspillage:preserver 225 309 -19 {Tags:["ghr_hostile"]}
 summon cataclysm:nameless_sorcerer 225 309 -19 {Tags:["ghr_hostile", "ghr_boss_invul_buff"], glowing:1b, CustomName:'[{"text":"Nameless Sorcerer"}]', Attributes:[{Name:"generic.armor",Base:4f}, {Name:"generic.max_health",Base:100f}], Health:100}

@@ -14,17 +14,17 @@ summon illagerinvasion:basher 226 311 16 {Tags:["ghr_hostile"], Health:40, HandI
 summon illageandspillage:twittollager 226 311 16 {Tags:["ghr_hostile"]}
 summon illageandspillage:crocofang 226 311 16 {Tags:["ghr_hostile"]}
 
-# Spawn area 1: 190 309 14
+# Spawn area 2: 190 309 14
 summon illageandspillage:igniter 190 309 14 {Tags:["ghr_hostile"]}
 summon illagerinvasion:basher 190 309 14 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 
-# Spawn area 1: 192 309 -18
+# Spawn area 3: 192 309 -18
 summon illagerinvasion:basher 192 309 -18 {Tags:["ghr_hostile"], Health:40, HandItems:[{id:stone_sword,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0f], Attributes:[{Name:"generic.max_health",Base:40f},{Name:"generic.armor",Base:4f}]}
 summon illageandspillage:twittollager 192 309 -18 {Tags:["ghr_hostile"]}
 summon illageandspillage:crocofang 192 309 -18 {Tags:["ghr_hostile"]}
 
 
-# Spawn area 1: 225 309 -19
+# Spawn area 4: 225 309 -19
 summon illageandspillage:igniter 225 309 -19 {Tags:["ghr_hostile"]}
 summon illagerinvasion:basher 225 309 -19 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 

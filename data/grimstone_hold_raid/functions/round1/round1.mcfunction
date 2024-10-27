@@ -2,8 +2,12 @@
 scoreboard players set ghr.state ghr.round 1
 scoreboard players set ghr.state ghr.rep 1
 
+# Update countdown time
+scoreboard players add ghr.state ghr.time_remaining_seconds 600
+
 # Display and notify player
 playsound illageandspillage:entity.boss_randomizer.boss master @a
+title @a subtitle "+10 Minutes"
 title @a title "Round 1"
 
 # Schedule reps

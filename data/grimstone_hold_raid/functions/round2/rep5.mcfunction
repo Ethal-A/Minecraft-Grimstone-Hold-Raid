@@ -47,7 +47,6 @@ summon phantom 225 309 -19 {Tags:["ghr_hostile"], Angry:1, Size:2,Passengers:[{i
 
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
-effect give @e[tag=ghr_hostile] minecraft:fire_resistance 10 1 true
 
 # Add all newly generated hostiles to a team
 team join ghr_hostile_mobs @e[tag=ghr_hostile]

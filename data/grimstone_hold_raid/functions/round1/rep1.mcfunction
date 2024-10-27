@@ -1,8 +1,9 @@
 # Set variables
 scoreboard players set ghr.state ghr.rep 1
 
-# Inform the player (and start playing music)
+# Inform the player (reset title format and start playing music)
 tellraw @a "Round 1, Rep 1"
+title @a reset
 stopsound @a music
 playsound boss_music_mod:witherboss music @a
 
@@ -24,7 +25,6 @@ summon ravager 225 309 -19 {Tags:["ghr_hostile"], Attributes:[{Name:"generic.arm
 
 # Prevent immediate death
 effect give @e[tag=ghr_hostile] minecraft:slow_falling 10 0 true
-effect give @e[tag=ghr_hostile] minecraft:fire_resistance 10 1 true
 
 # Add all newly generated hostiles to a team
 team join ghr_hostile_mobs @e[tag=ghr_hostile]

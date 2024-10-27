@@ -3,7 +3,7 @@ scoreboard objectives add ghr.raid_ongoing dummy "Raid Ongoing"
 scoreboard players set ghr.state ghr.raid_ongoing 1
 
 scoreboard objectives add ghr.time_remaining_seconds dummy "Time Remaining (s)"
-scoreboard players set ghr.state ghr.time_remaining_seconds 600
+scoreboard players set ghr.state ghr.time_remaining_seconds 300
 
 scoreboard objectives add ghr.round dummy "Raid Round"
 scoreboard players set ghr.state ghr.round 1

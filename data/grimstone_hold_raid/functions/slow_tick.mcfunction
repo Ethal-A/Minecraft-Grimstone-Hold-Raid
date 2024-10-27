@@ -61,9 +61,7 @@ execute as @a[scores={ghr.respawn_countdown=4}] run tellraw @s "4 seconds until 
 execute as @a[scores={ghr.respawn_countdown=3}] run tellraw @s "3 seconds until respawn"
 execute as @a[scores={ghr.respawn_countdown=2}] run tellraw @s "2 seconds until respawn"
 execute as @a[scores={ghr.respawn_countdown=1}] run tellraw @s "1 seconds until respawn"
+execute as @a[scores={ghr.respawn_countdown=..0}] run function grimstone_hold_raid:util/respawn_player
 
-execute as @a[scores={ghr.respawn_countdown=..0}] run tp 210 310 -3
-execute as @a[scores={ghr.respawn_countdown=..0}] run gamemode survival
-execute as @a[scores={ghr.respawn_countdown=..0}] run tellraw @s "Respawned"
-execute as @a[scores={ghr.respawn_countdown=..0}] run effect give @s resistance 5 10 true
-execute as @a[scores={ghr.respawn_countdown=..0}] run scoreboard players reset @s ghr.respawn_countdown
+# Handle failure (check that it is ongoing because otherwise this function may execute twice)
+execute if score ghr.state ghr.players_remaining matches 0 if score ghr.state ghr.raid_ongoing matches 1 run function grimstone_hold_raid:finish/failure

@@ -6,19 +6,19 @@ scoreboard players set ghr.state ghr.rep 1
 function grimstone_hold_raid:round5/clear_schedule
 
 # Update countdown time
-scoreboard players add ghr.state ghr.time_remaining_seconds 660
+scoreboard players add ghr.state ghr.time_remaining_seconds 360
 
 # Display and notify player
 playsound illageandspillage:entity.boss_randomizer.boss master @a
-title @a subtitle "+11 Minutes"
+title @a subtitle "+6 Minutes"
 title @a title "Round 6"
 
 # Run reps
-schedule function grimstone_hold_raid:round6/rep1 60s
-schedule function grimstone_hold_raid:round6/rep2 90s
+schedule function grimstone_hold_raid:round6/rep1 30s
+schedule function grimstone_hold_raid:round6/rep2 40s
 
-schedule function grimstone_hold_raid:round6/rep3 150s
-schedule function grimstone_hold_raid:round6/rep4 180s
+schedule function grimstone_hold_raid:round6/rep3 80s
+schedule function grimstone_hold_raid:round6/rep4 90s
 
 # Message players
 tellraw @a {"text":"You've peaked the interest of the Magispeller...","color":"red"}

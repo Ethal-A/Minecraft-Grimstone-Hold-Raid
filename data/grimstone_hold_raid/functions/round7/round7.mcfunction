@@ -14,11 +14,11 @@ title @a subtitle "+11 Minutes"
 title @a title "Round 7"
 
 # Run reps
-schedule function grimstone_hold_raid:round7/rep1 60s
-schedule function grimstone_hold_raid:round7/rep2 90s
-schedule function grimstone_hold_raid:round7/rep3 120s
+schedule function grimstone_hold_raid:round7/rep1 30s
+schedule function grimstone_hold_raid:round7/rep2 40s
+schedule function grimstone_hold_raid:round7/rep3 61s
 
-schedule function grimstone_hold_raid:round7/rep4 210s
+schedule function grimstone_hold_raid:round7/rep4 91s
 
-schedule function grimstone_hold_raid:round7/rep5 300s
-schedule function grimstone_hold_raid:round7/rep6 330s
+schedule function grimstone_hold_raid:round7/rep5 110s
+schedule function grimstone_hold_raid:round7/rep6 140s

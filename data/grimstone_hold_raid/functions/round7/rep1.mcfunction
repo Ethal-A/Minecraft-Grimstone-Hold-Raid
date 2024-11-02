@@ -6,6 +6,7 @@ tellraw @a "Round 7, Rep 1"
 title @a reset
 
 # Random imps
+function grimstone_hold_raid:living_bombs/plant_living_bomb
 schedule function grimstone_hold_raid:dispensers/dispenser 5s
 schedule function grimstone_hold_raid:kaboomers/kaboomer 10s
 

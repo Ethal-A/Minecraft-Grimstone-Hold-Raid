@@ -3,6 +3,7 @@ execute at @e[name="Magispeller"] run summon ravager ~3 ~ ~ {Tags:["ghr_hostile"
 execute at @e[name="Magispeller"] run summon ravager ~ ~ ~3 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Magispeller Minion"}]', Health:18, Attributes:[{Name:"generic.max_health",Base:18f}], ForgeData: {InfernalMobsMod: "notInfernal"}}
 execute at @e[name="Magispeller"] run summon ravager ~3 ~ ~3 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Magispeller Minion"}]', Health:18, Attributes:[{Name:"generic.max_health",Base:18f}], ForgeData: {InfernalMobsMod: "notInfernal"}}
 execute at @e[name="Magispeller"] run summon illageandspillage:illashooter ~3 ~ ~3 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Magispeller Minion"}]', ForgeData: {InfernalMobsMod: "notInfernal"}}
+execute at @e[name="Magispeller"] run summon illageandspillage:illashooter ~2 ~ ~2 {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Magispeller Minion"}]', ForgeData: {InfernalMobsMod: "notInfernal"}}
 execute at @e[name="Magispeller"] run summon illageandspillage:dispenser ~ ~2 ~ {Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Magispeller Minion"}]', ForgeData: {InfernalMobsMod: "notInfernal"}}
 
 # Effect mobs

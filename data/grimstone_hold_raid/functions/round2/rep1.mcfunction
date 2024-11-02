@@ -20,7 +20,7 @@ schedule function grimstone_hold_raid:imps/square7x7 20s
 schedule function grimstone_hold_raid:imps/square7x7 30s
 
 # Spawn boss area: 5074 308 -2081
-summon illageandspillage:absorber 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss", "ghr_cause_bleeding"], CustomName:'[{"text":"Goliath"}]', Attributes:[{Name:"generic.max_health",Base:1200f}], Health:1200, ForgeData: {InfernalMobsMod: "notInfernal"}}
+summon illageandspillage:absorber 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss", "ghr_cause_bleeding"], CustomName:'[{"text":"Goliath"}]', Attributes:[{Name:"generic.max_health",Base:1000f}], Health:1000, ForgeData: {InfernalMobsMod: "notInfernal"}}
 effect give @e[type=illageandspillage:absorber, tag=ghr_boss] minecraft:speed infinite 8 true
 effect give @e[type=illageandspillage:absorber, tag=ghr_boss] minecraft:strength infinite 20 true
 scale set pehkui:height 1.8 @e[type=illageandspillage:absorber, tag=ghr_boss]
@@ -28,7 +28,7 @@ scale set pehkui:width 1.8 @e[type=illageandspillage:absorber, tag=ghr_boss]
 scale set pehkui:interaction_box_height 1.8 @e[type=illageandspillage:absorber, tag=ghr_boss]
 scale set pehkui:interaction_box_width 1.8 @e[type=illageandspillage:absorber, tag=ghr_boss]
 function grimstone_hold_raid:round2/goliath_minion_spawn_tick
-schedule function grimstone_hold_raid:round2/goliath_support_tick 180
+schedule function grimstone_hold_raid:round2/goliath_support_tick 40
 
 # Make the boss always glow
 effect give @e[tag=ghr_boss] glowing infinite 0 true

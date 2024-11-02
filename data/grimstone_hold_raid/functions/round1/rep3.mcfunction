@@ -7,7 +7,9 @@ tellraw @a "Round 1, Rep 3"
 # Random imps
 function grimstone_hold_raid:imps/cross9
 schedule function grimstone_hold_raid:imps/cross9 2s
-schedule function grimstone_hold_raid:imps/square7x7 4s
+schedule function grimstone_hold_raid:imps/cross9 4s
+schedule function grimstone_hold_raid:imps/square7x7 6s
+schedule function grimstone_hold_raid:imps/square7x7 8s
 
 # Spawn area 1: 5055 308 -2100
 summon minecraft:pillager 5055 308 -2100 {Tags:["ghr_hostile", "small_and_fast"], CustomName:'[{"text":"Inspiring Pillager"}]', HandItems:[{id:crossbow,Count:1}, {id:"shieldexp:wooden_shield", Count:1}],HandDropChances:[0.05f,0.05f], Attributes:[{Name:"generic.armor",Base:2f}]}

@@ -6,7 +6,12 @@ tellraw @a "Round 1, Rep 6 (final rep)"
 
 # Random imps
 function grimstone_hold_raid:imps/cross9
+schedule function grimstone_hold_raid:imps/cross9 6s
+schedule function grimstone_hold_raid:imps/cross9 8s
+schedule function grimstone_hold_raid:imps/cross9 10s
+schedule function grimstone_hold_raid:imps/cross9 16s
 schedule function grimstone_hold_raid:imps/square7x7 2s
+schedule function grimstone_hold_raid:imps/square7x7 4s
 
 # Spawn boss area: 5074 308 -2081
 summon irons_spellbooks:archevoker 5074 308 -2081

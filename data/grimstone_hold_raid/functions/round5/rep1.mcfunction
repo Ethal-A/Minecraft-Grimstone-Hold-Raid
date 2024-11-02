@@ -11,11 +11,11 @@ schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s
 schedule function grimstone_hold_raid:skull_bombs/skull_bomb 15s
 
 # Spawn boss area: 5074 308 -2081
-summon illageandspillage:freakager 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Freakager"}]', Attributes:[{Name:"generic.max_health",Base:3000f}], Health:3000, ForgeData: {InfernalMobsMod: "notInfernal"}}
+summon illageandspillage:freakager 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Freakager"}]', Attributes:[{Name:"generic.max_health",Base:2500f}], Health:2500, ForgeData: {InfernalMobsMod: "notInfernal"}}
 effect give @e[type=illageandspillage:freakager, tag=ghr_boss] minecraft:regeneration infinite 2 true
 execute as @e[type=illageandspillage:freakager, tag=ghr_boss] run damage @s 0 player_attack by @p
 schedule function grimstone_hold_raid:round5/set_ragno_name 10s
-schedule function grimstone_hold_raid:round5/freakager_minion_spawn_tick 120s
+schedule function grimstone_hold_raid:round5/freakager_minion_spawn_tick 40s
 schedule function grimstone_hold_raid:round5/ragno_minion_spawn_tick 20s
 
 # Make the boss always glow

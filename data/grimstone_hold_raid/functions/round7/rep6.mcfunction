@@ -4,6 +4,19 @@ scoreboard players set ghr.state ghr.rep 6
 # Inform the player
 tellraw @a "Round 7, Rep 6 (final rep)"
 
+# Schedule bombs
+function grimstone_hold_raid:living_bombs/plant_living_bomb
+schedule function grimstone_hold_raid:dispensers/dispenser 2s
+schedule function grimstone_hold_raid:dispensers/dispenser 4s
+schedule function grimstone_hold_raid:dispensers/dispenser 6s
+schedule function grimstone_hold_raid:dispensers/dispenser 8s
+schedule function grimstone_hold_raid:dispensers/dispenser 10s
+schedule function grimstone_hold_raid:dispensers/dispenser 12s
+schedule function grimstone_hold_raid:dispensers/dispenser 14s
+schedule function grimstone_hold_raid:dispensers/dispenser 16s
+schedule function grimstone_hold_raid:dispensers/dispenser 18s
+schedule function grimstone_hold_raid:dispensers/dispenser 20s
+
 # Spawn area 1: 5055 308 -2100
 summon illagerinvasion:basher 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
 summon illagerinvasion:marauder 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"illagerinvasion:platinum_infused_hatchet",Count:1}], HandDropChances:[0.05f,0.05f]}

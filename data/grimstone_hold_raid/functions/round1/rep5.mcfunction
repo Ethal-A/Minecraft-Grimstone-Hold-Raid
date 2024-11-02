@@ -12,7 +12,7 @@ schedule function grimstone_hold_raid:imps/cross9 20s
 schedule function grimstone_hold_raid:imps/cross9 30s
 schedule function grimstone_hold_raid:imps/cross9 30s
 schedule function grimstone_hold_raid:imps/cross9 80s
-schedule function grimstone_hold_raid:imps/cross9 80s
+schedule function grimstone_hold_raid:imps/cross9 90s
 schedule function grimstone_hold_raid:imps/square7x7 15s
 schedule function grimstone_hold_raid:imps/square7x7 20s
 schedule function grimstone_hold_raid:imps/square7x7 35s

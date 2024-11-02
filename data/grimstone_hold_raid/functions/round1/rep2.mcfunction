@@ -8,6 +8,7 @@ tellraw @a "Round 1, Rep 2"
 function grimstone_hold_raid:imps/square7x7
 schedule function grimstone_hold_raid:imps/square7x7 2s
 schedule function grimstone_hold_raid:imps/square7x7 4s
+schedule function grimstone_hold_raid:imps/square7x7 6s
 
 # Spawn area 1: 5055 308 -2100
 summon illagerinvasion:basher 5055 308 -2100 {Tags:["ghr_hostile"], Health:40, HandItems:[{id:stone_sword,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0f], Attributes:[{Name:"generic.max_health",Base:40f},{Name:"generic.armor",Base:4f}]}

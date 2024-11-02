@@ -8,10 +8,13 @@ tellraw @a "Round 1, Rep 4"
 function grimstone_hold_raid:imps/cross9
 schedule function grimstone_hold_raid:imps/cross9 2s
 schedule function grimstone_hold_raid:imps/cross9 4s
-schedule function grimstone_hold_raid:imps/square7x7 6s
+schedule function grimstone_hold_raid:imps/cross9 6s
 schedule function grimstone_hold_raid:imps/square7x7 8s
 schedule function grimstone_hold_raid:imps/square7x7 10s
 schedule function grimstone_hold_raid:imps/square7x7 12s
+schedule function grimstone_hold_raid:imps/square7x7 14s
+schedule function grimstone_hold_raid:imps/square7x7 20s
+schedule function grimstone_hold_raid:imps/square7x7 25s
 
 
 # Spawn boss area: 5074 308 -2081

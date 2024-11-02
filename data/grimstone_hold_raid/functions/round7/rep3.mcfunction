@@ -2,6 +2,7 @@
 scoreboard players set ghr.state ghr.rep 3
 
 # Schedule bombs
+function grimstone_hold_raid:living_bombs/plant_living_bomb
 schedule function grimstone_hold_raid:kaboomers/kaboomer 3s
 
 # Inform the player

@@ -14,7 +14,7 @@ summon illageandspillage:spiritcaller 5074 308 -2081 {Tags:["ghr_hostile", "ghr_
 effect give @e[type=illageandspillage:spiritcaller, tag=ghr_boss] minecraft:regeneration infinite 2 true
 execute as @e[type=illageandspillage:spiritcaller, tag=ghr_boss] run damage @s 0 player_attack by @p
 function grimstone_hold_raid:round3/spiritcaller_minion_spawn_tick
-schedule function grimstone_hold_raid:round3/spiritcaller_support_tick 120s
+schedule function grimstone_hold_raid:round3/spiritcaller_support_tick 30s
 
 # Make the boss always glow
 effect give @e[tag=ghr_boss] glowing infinite 0 true

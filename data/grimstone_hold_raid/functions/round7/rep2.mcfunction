@@ -5,8 +5,8 @@ scoreboard players set ghr.state ghr.rep 2
 tellraw @a "Round 7, Rep 2"
 
 # Schedule bombs
-schedule function grimstone_hold_raid:kaboomers/kaboomer 30s
-schedule function grimstone_hold_raid:dispensers/dispenser 50s
+schedule function grimstone_hold_raid:kaboomers/kaboomer 30s append
+schedule function grimstone_hold_raid:dispensers/dispenser 50s append
 
 # Spawn area 1: 5055 308 -2100
 summon illagerinvasion:firecaller 5055 308 -2100 {Tags:["ghr_hostile"]}

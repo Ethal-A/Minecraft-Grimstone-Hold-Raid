@@ -5,9 +5,9 @@ scoreboard players set ghr.state ghr.rep 2
 tellraw @a "Round 5, Rep 2"
 
 # Schedule bombs
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 15s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 25s
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 15s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 25s append
 
 # Spawn area 1: 5055 308 -2100
 summon illagerinvasion:basher 5055 308 -2100 {Tags:["ghr_hostile"], Health:40, HandItems:[{id:stone_sword,Count:1},{id:shield,Count:1}],HandDropChances:[0.05f,0f], Attributes:[{Name:"generic.max_health",Base:40f},{Name:"generic.armor",Base:4f}]}

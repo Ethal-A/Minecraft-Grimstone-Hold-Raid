@@ -5,9 +5,9 @@ scoreboard players set ghr.state ghr.rep 5
 tellraw @a "Round 5, Rep 5 (final rep)"
 
 # Schedule bombs
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 5s
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 30s
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 5s append
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 30s append
 
 # Spawn area 1: 5055 308 -2100
 summon vindicator 5055 308 -2100 {Tags:["ghr_hostile"],ActiveEffects:[{Id:5,ShowParticles:0b}],HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f],Passengers:[{id:cave_spider, Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Ragno Babies"}]', Attributes:[{Name:"generic.max_health",Base:8}], Health:8,Passengers:[{id:cave_spider, Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Ragno Babies"}]', Attributes:[{Name:"generic.max_health",Base:8}], Health:8,Passengers:[{id:cave_spider, Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Ragno Babies"}]', Attributes:[{Name:"generic.max_health",Base:8}], Health:8,Passengers:[{id:cave_spider, Tags:["ghr_hostile", "ghr_boss_minion"], CustomName:'[{"text":"Ragno Babies"}]', Attributes:[{Name:"generic.max_health",Base:8}], Health:8}]}]}]}]}

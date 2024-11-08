@@ -6,9 +6,9 @@ tellraw @a "Round 5, Rep 1"
 title @a reset
 
 # Schedule bombs
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 5s
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 15s
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 5s append
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s append
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 15s append
 
 # Spawn boss area: 5074 308 -2081
 summon illageandspillage:freakager 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Freakager"}]', Attributes:[{Name:"generic.max_health",Base:2500f}], Health:2500, ForgeData: {InfernalMobsMod: "notInfernal"}}

@@ -5,13 +5,13 @@ scoreboard players set ghr.state ghr.rep 3
 tellraw @a "Round 5, Rep 3"
 
 # Schedule bombs
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 5s
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 10s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 15s
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 20s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 30s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 50s
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 5s append
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 10s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 15s append
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 20s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 30s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 50s append
 
 # Spawn area 1: 5055 308 -2100
 summon illageandspillage:crocofang 5055 308 -2100 {Tags:["ghr_hostile"]}

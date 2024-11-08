@@ -5,9 +5,9 @@ scoreboard players set ghr.state ghr.rep 5
 tellraw @a "Round 4, Rep 5"
 
 # Schedule bombs
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 5s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 15s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 25s
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 5s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 15s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 25s append
 
 # Spawn area 1: 5055 308 -2100
 summon illageandspillage:igniter 5055 308 -2100 {Tags:["ghr_hostile"]}

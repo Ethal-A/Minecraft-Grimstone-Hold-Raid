@@ -6,8 +6,8 @@ tellraw @a "Round 2, Rep 3"
 
 # Random imps
 function grimstone_hold_raid:imps/cross30
-schedule function grimstone_hold_raid:imps/cross30 5s
-schedule function grimstone_hold_raid:imps/square7x7 10s
+schedule function grimstone_hold_raid:imps/cross30 5s append
+schedule function grimstone_hold_raid:imps/square7x7 10s append
 
 # Spawn area 1: 5055 308 -2100
 summon illagerinvasion:inquisitor 5055 308 -2100 {Tags:["ghr_hostile"], PersistenceRequired:1b,HandItems:[{id:iron_sword,Count:1},{id:shield,Count:1}],HandDropChances:[0f,0f]}

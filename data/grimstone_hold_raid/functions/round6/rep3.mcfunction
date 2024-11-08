@@ -6,8 +6,8 @@ tellraw @a "Round 6, Rep 3"
 
 # Schedule bombs
 function grimstone_hold_raid:living_bombs/plant_living_bomb
-schedule function grimstone_hold_raid:dispensers/dispenser 5s
-schedule function grimstone_hold_raid:kaboomers/kaboomer 20s
+schedule function grimstone_hold_raid:dispensers/dispenser 5s append
+schedule function grimstone_hold_raid:kaboomers/kaboomer 20s append
 
 # Spawn boss area: 5074 308 -2081
 summon minecraft:creeper 5093 308 -2100 {Tags:["ghr_hostile", "ghr_enlarge"], powered:1,ExplosionRadius:2,Health:50,Attributes:[{Name:"generic.max_health",Base:50f}]}

@@ -7,7 +7,7 @@ title @a reset
 
 # Random imps
 function grimstone_hold_raid:imps/cross30
-schedule function grimstone_hold_raid:imps/cross30 2s
+schedule function grimstone_hold_raid:imps/cross30 2s append
 
 # Spawn boss area: 5074 308 -2081
 summon illageandspillage:spiritcaller 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Spiritcaller"}]', Attributes:[{Name:"generic.max_health",Base:3500f}], Health:3500, ForgeData: {InfernalMobsMod: "notInfernal"}}

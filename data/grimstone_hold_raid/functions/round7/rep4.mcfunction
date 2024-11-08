@@ -6,7 +6,7 @@ tellraw @a "Round 7, Rep 4"
 
 # Schedule bombs
 function grimstone_hold_raid:living_bombs/plant_living_bomb
-schedule function grimstone_hold_raid:kaboomers/kaboomer 30s
+schedule function grimstone_hold_raid:kaboomers/kaboomer 30s append
 
 # Spawn area 1: 5055 308 -2100
 summon illageandspillage:crocofang 5055 308 -2100 {Tags:["ghr_hostile"]}

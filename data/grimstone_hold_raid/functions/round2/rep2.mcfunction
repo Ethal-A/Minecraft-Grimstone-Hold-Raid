@@ -6,8 +6,8 @@ tellraw @a "Round 2, Rep 2"
 
 # Random imps
 function grimstone_hold_raid:imps/cross30
-schedule function grimstone_hold_raid:imps/cross30 5s
-schedule function grimstone_hold_raid:imps/square7x7 10s
+schedule function grimstone_hold_raid:imps/cross30 5s append
+schedule function grimstone_hold_raid:imps/square7x7 10s append
 
 # Spawn area 1: 5055 308 -2100
 multisummon spread 1 2 2 vex 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"simplyswords:gold_rapier",Count:1}, {id:"shieldexp:golden_shield",Count:1}],HandDropChances:[0.01f,0.01f], Attributes:[{Name:"generic.armor",Base:2f}], active_effects:[{id:strength,amplifier:1,show_particles:0b}]}

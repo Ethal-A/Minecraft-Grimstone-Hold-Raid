@@ -6,10 +6,10 @@ tellraw @a "Round 6, Rep 4 (final rep)"
 
 # Schedule bombs
 function grimstone_hold_raid:living_bombs/plant_living_bomb
-schedule function grimstone_hold_raid:kaboomers/kaboomer 5s
-schedule function grimstone_hold_raid:dispensers/dispenser 15s
-schedule function grimstone_hold_raid:kaboomers/kaboomer 40s
-schedule function grimstone_hold_raid:kaboomers/kaboomer 60s
+schedule function grimstone_hold_raid:kaboomers/kaboomer 5s append
+schedule function grimstone_hold_raid:dispensers/dispenser 15s append
+schedule function grimstone_hold_raid:kaboomers/kaboomer 40s append
+schedule function grimstone_hold_raid:kaboomers/kaboomer 60s append
 
 # Spawn boss area: 5074 308 -2081
 summon irons_spellbooks:archevoker 5074 308 -2081

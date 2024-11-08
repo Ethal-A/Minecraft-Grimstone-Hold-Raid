@@ -3,7 +3,7 @@ scoreboard players set ghr.state ghr.rep 3
 
 # Schedule bombs
 function grimstone_hold_raid:living_bombs/plant_living_bomb
-schedule function grimstone_hold_raid:kaboomers/kaboomer 3s
+schedule function grimstone_hold_raid:kaboomers/kaboomer 3s append
 
 # Inform the player
 tellraw @a "Round 7, Rep 3"

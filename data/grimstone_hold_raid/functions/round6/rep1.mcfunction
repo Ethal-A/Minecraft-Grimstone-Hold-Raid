@@ -7,7 +7,7 @@ title @a reset
 
 # Schedule bombs
 function grimstone_hold_raid:living_bombs/plant_living_bomb
-schedule function grimstone_hold_raid:kaboomers/kaboomer 30s
+schedule function grimstone_hold_raid:kaboomers/kaboomer 30s append
 
 # Spawn boss area: 5074 308 -2081
 summon mutantmonsters:mutant_creeper 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Dyna"}]', Attributes:[{Name:"generic.max_health",Base:800f}], Health:800, ForgeData: {InfernalMobsMod: "notInfernal"}}

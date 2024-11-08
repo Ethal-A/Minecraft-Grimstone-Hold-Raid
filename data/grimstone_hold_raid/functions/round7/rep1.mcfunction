@@ -7,8 +7,8 @@ title @a reset
 
 # Random imps
 function grimstone_hold_raid:living_bombs/plant_living_bomb
-schedule function grimstone_hold_raid:dispensers/dispenser 5s
-schedule function grimstone_hold_raid:kaboomers/kaboomer 10s
+schedule function grimstone_hold_raid:dispensers/dispenser 5s append
+schedule function grimstone_hold_raid:kaboomers/kaboomer 10s append
 
 # Spawn boss area: 5074 308 -2081
 summon illageandspillage:magispeller 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss"], CustomName:'[{"text":"Magispeller"}]', Attributes:[{Name:"generic.max_health",Base:5500f}], Health:5500, ForgeData: {InfernalMobsMod: "notInfernal"}}

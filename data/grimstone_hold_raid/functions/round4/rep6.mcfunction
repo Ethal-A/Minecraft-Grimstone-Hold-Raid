@@ -5,11 +5,11 @@ scoreboard players set ghr.state ghr.rep 6
 tellraw @a "Round 4, Rep 6 (final rep)"
 
 # Schedule bombs
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 5s
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s
-schedule function grimstone_hold_raid:skull_bombs/skull_bomb 15s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 20s
-schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 30s
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 5s append
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 10s append
+schedule function grimstone_hold_raid:skull_bombs/skull_bomb 15s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb 20s append
+schedule function grimstone_hold_raid:pumpkin_bombs/pumpkin_bomb3x3 30s append
 
 # Spawn boss area: 5074 308 -2081
 summon illagerinvasion:necromancer 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss"], Attributes:[{Name:"generic.max_health",Base:300f}], Health:300}

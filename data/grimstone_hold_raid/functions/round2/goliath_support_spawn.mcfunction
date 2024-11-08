@@ -3,7 +3,7 @@ tellraw @a {"text":"Goliath calls for support","color":"red"}
 
 # Random imps
 function grimstone_hold_raid:imps/cross30
-schedule function grimstone_hold_raid:imps/square7x7 5s
+schedule function grimstone_hold_raid:imps/square7x7 5s append
 
 # Spawn area 1: 5055 308 -2100
 summon minecraft:vindicator 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:diamond_axe,Count:1},{id:shield,Count:1}],Attributes:[{Name:"generic.armor",Base:2f}],HandDropChances:[0f,0f]}

@@ -6,8 +6,8 @@ tellraw @a "Round 2, Rep 5 (final rep)"
 
 # Random imps
 function grimstone_hold_raid:imps/cross30
-schedule function grimstone_hold_raid:imps/cross30 5s
-schedule function grimstone_hold_raid:imps/square7x7 10s
+schedule function grimstone_hold_raid:imps/cross30 5s append
+schedule function grimstone_hold_raid:imps/square7x7 10s append
 
 # Spawn boss area: 5074 308 -2081
 summon minecraft:illusioner 5074 308 -2081 {Tags:["ghr_hostile"], Angry:1, Attributes:[{Name:"generic.max_health",Base:300f}], Health:300, ForgeData: {InfernalMobsMod: "notInfernal"}}

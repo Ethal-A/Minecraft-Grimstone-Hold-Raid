@@ -11,13 +11,13 @@ title @a reset
 
 # Random imps
 function grimstone_hold_raid:imps/cross30
-schedule function grimstone_hold_raid:imps/cross30 2s
-schedule function grimstone_hold_raid:imps/cross30 4s
-schedule function grimstone_hold_raid:imps/cross30 6s
-schedule function grimstone_hold_raid:imps/cross30 8s
-schedule function grimstone_hold_raid:imps/cross30 10s
-schedule function grimstone_hold_raid:imps/square7x7 20s
-schedule function grimstone_hold_raid:imps/square7x7 30s
+schedule function grimstone_hold_raid:imps/cross30 2s append
+schedule function grimstone_hold_raid:imps/cross30 4s append
+schedule function grimstone_hold_raid:imps/cross30 6s append
+schedule function grimstone_hold_raid:imps/cross30 8s append
+schedule function grimstone_hold_raid:imps/cross30 10s append
+schedule function grimstone_hold_raid:imps/square7x7 20s append
+schedule function grimstone_hold_raid:imps/square7x7 30s append
 
 # Spawn boss area: 5074 308 -2081
 summon illageandspillage:absorber 5074 308 -2081 {Tags:["ghr_hostile", "ghr_boss", "ghr_cause_bleeding"], CustomName:'[{"text":"Goliath"}]', Attributes:[{Name:"generic.max_health",Base:1000f}], Health:1000, ForgeData: {InfernalMobsMod: "notInfernal"}}

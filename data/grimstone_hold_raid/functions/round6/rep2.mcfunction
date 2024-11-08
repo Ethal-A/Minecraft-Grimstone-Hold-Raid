@@ -5,9 +5,9 @@ scoreboard players set ghr.state ghr.rep 2
 tellraw @a "Round 6, Rep 2"
 
 # Schedule bombs
-schedule function grimstone_hold_raid:kaboomers/kaboomer 5s
-schedule function grimstone_hold_raid:kaboomers/kaboomer 20s
-schedule function grimstone_hold_raid:dispensers/dispenser 30s
+schedule function grimstone_hold_raid:kaboomers/kaboomer 5s append
+schedule function grimstone_hold_raid:kaboomers/kaboomer 20s append
+schedule function grimstone_hold_raid:dispensers/dispenser 30s append
 
 # Spawn area 1: 5055 308 -2100
 summon zombie 5055 308 -2100 {Tags:["ghr_hostile", "ghr_enlarge"],CustomName:'[{"text":"Hammer Time"}]',Health:40,HandItems:[{id:"simplyswords:iron_greathammer",Count:1},{id:shield,Count:1}],Attributes:[{Name:"zombie.spawn_reinforcements",Base:0.5f},{Name:"generic.max_health",Base:40f}],HandDropChances:[0f,0f]}

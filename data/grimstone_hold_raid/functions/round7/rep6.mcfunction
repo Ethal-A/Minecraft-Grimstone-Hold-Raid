@@ -6,16 +6,16 @@ tellraw @a "Round 7, Rep 6 (final rep)"
 
 # Schedule bombs
 function grimstone_hold_raid:living_bombs/plant_living_bomb
-schedule function grimstone_hold_raid:dispensers/dispenser 2s
-schedule function grimstone_hold_raid:dispensers/dispenser 4s
-schedule function grimstone_hold_raid:dispensers/dispenser 6s
-schedule function grimstone_hold_raid:dispensers/dispenser 8s
-schedule function grimstone_hold_raid:dispensers/dispenser 10s
-schedule function grimstone_hold_raid:dispensers/dispenser 12s
-schedule function grimstone_hold_raid:dispensers/dispenser 14s
-schedule function grimstone_hold_raid:dispensers/dispenser 16s
-schedule function grimstone_hold_raid:dispensers/dispenser 18s
-schedule function grimstone_hold_raid:dispensers/dispenser 20s
+schedule function grimstone_hold_raid:dispensers/dispenser 2s append
+schedule function grimstone_hold_raid:dispensers/dispenser 4s append
+schedule function grimstone_hold_raid:dispensers/dispenser 6s append
+schedule function grimstone_hold_raid:dispensers/dispenser 8s append
+schedule function grimstone_hold_raid:dispensers/dispenser 10s append
+schedule function grimstone_hold_raid:dispensers/dispenser 12s append
+schedule function grimstone_hold_raid:dispensers/dispenser 14s append
+schedule function grimstone_hold_raid:dispensers/dispenser 16s append
+schedule function grimstone_hold_raid:dispensers/dispenser 18s append
+schedule function grimstone_hold_raid:dispensers/dispenser 20s append
 
 # Spawn area 1: 5055 308 -2100
 summon illagerinvasion:basher 5055 308 -2100 {Tags:["ghr_hostile"], HandItems:[{id:"shield",Count:1}]}
